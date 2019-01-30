@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="game.libretro.parallel_n64"
+		name="Nintendo - Nintendo 64 (ParaLLEl N64)"
+		version="2.0.0.1"
+		provider-name="Libretro">
+	<requires>
+		<import addon="game.libretro" version="1.0.0"/>
+	</requires>
+	<extension point="kodi.gameclient"
+			library_@PLATFORM@="@LIBRARY_FILENAME@">
+		<platforms></platforms>
+		<extensions>n64|v64|z64|bin|u1|ndd</extensions>
+		<supports_vfs>true</supports_vfs>
+		<supports_standalone>false</supports_standalone>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64) 2.0-rc2</summary>
+		<description lang="en_GB">Supported files: .n64, .v64, .z64, .bin, .u1, .ndd</description>
+		<license>GPLv2</license>
+		<platform>@PLATFORM@</platform>
+		<source>https://github.com/kodi-game/game.libretro.parallel_n64</source>
+	</extension>
+</addon>
