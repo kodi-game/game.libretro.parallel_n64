@@ -1,0 +1,1 @@
+# game.libretro.parallel_n64
