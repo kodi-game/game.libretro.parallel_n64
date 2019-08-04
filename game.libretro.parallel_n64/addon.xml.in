@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.parallel_n64"
 		name="Nintendo - Nintendo 64 (ParaLLEl N64)"
-		version="2.0.0.1"
+		version="2.0.0.2"
 		provider-name="Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
