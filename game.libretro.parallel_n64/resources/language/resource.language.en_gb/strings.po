@@ -37,101 +37,105 @@ msgid "(Angrylion) Hide overscan"
 msgstr ""
 
 msgctxt "#30005"
-msgid "(Angrylion) VI Overlay"
+msgid "(Angrylion) Thread sync level"
 msgstr ""
 
 msgctxt "#30006"
-msgid "Aspect ratio hint (reinit)"
+msgid "(Angrylion) VI Overlay"
 msgstr ""
 
 msgctxt "#30007"
-msgid "Analog Deadzone (percent)"
+msgid "Aspect ratio hint (reinit)"
 msgstr ""
 
 msgctxt "#30008"
-msgid "Analog Sensitivity (percent)"
+msgid "Analog Deadzone (percent)"
 msgstr ""
 
 msgctxt "#30009"
-msgid "Audio Buffer Size (restart)"
+msgid "Analog Sensitivity (percent)"
 msgstr ""
 
 msgctxt "#30010"
-msgid "Boot Device"
+msgid "Audio Buffer Size (restart)"
 msgstr ""
 
 msgctxt "#30011"
-msgid "Buffer Swap"
+msgid "Boot Device"
 msgstr ""
 
 msgctxt "#30012"
-msgid "CPU Core"
+msgid "Buffer Swap"
 msgstr ""
 
 msgctxt "#30013"
-msgid "Enable Expansion Pak RAM"
+msgid "CPU Core"
 msgstr ""
 
 msgctxt "#30014"
-msgid "Dithering"
+msgid "Enable Expansion Pak RAM"
 msgstr ""
 
 msgctxt "#30015"
-msgid "Texture Filtering"
+msgid "Dithering"
 msgstr ""
 
 msgctxt "#30016"
-msgid "Framerate (restart)"
+msgid "Texture Filtering"
 msgstr ""
 
 msgctxt "#30017"
-msgid "GFX Plugin"
+msgid "Framerate (restart)"
 msgstr ""
 
 msgctxt "#30018"
-msgid "GFX Accuracy (restart)"
+msgid "GFX Plugin"
 msgstr ""
 
 msgctxt "#30019"
-msgid "Player 1 Pak"
+msgid "GFX Accuracy (restart)"
 msgstr ""
 
 msgctxt "#30020"
-msgid "Player 2 Pak"
+msgid "Player 1 Pak"
 msgstr ""
 
 msgctxt "#30021"
-msgid "Player 3 Pak"
+msgid "Player 2 Pak"
 msgstr ""
 
 msgctxt "#30022"
-msgid "Player 4 Pak"
+msgid "Player 3 Pak"
 msgstr ""
 
 msgctxt "#30023"
-msgid "ParaLLEl Synchronous RDP"
+msgid "Player 4 Pak"
 msgstr ""
 
 msgctxt "#30024"
-msgid "(Glide64) Polygon Offset Factor"
+msgid "ParaLLEl Synchronous RDP"
 msgstr ""
 
 msgctxt "#30025"
-msgid "(Glide64) Polygon Offset Units"
+msgid "(Glide64) Polygon Offset Factor"
 msgstr ""
 
 msgctxt "#30026"
-msgid "RSP Plugin"
+msgid "(Glide64) Polygon Offset Units"
 msgstr ""
 
 msgctxt "#30027"
-msgid "Resolution (restart)"
+msgid "RSP Plugin"
 msgstr ""
 
 msgctxt "#30028"
-msgid "Send audio lists to HLE RSP"
+msgid "Resolution (restart)"
 msgstr ""
 
 msgctxt "#30029"
+msgid "Send audio lists to HLE RSP"
+msgstr ""
+
+msgctxt "#30030"
 msgid "VI Refresh (Overclock)"
 msgstr ""
