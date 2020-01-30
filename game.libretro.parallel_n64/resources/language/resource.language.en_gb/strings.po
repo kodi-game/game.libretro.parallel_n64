@@ -113,27 +113,27 @@ msgid "Player 4 Pak"
 msgstr ""
 
 msgctxt "#30024"
-msgid "ParaLLEl Synchronous RDP"
-msgstr ""
-
-msgctxt "#30025"
 msgid "(Glide64) Polygon Offset Factor"
 msgstr ""
 
-msgctxt "#30026"
+msgctxt "#30025"
 msgid "(Glide64) Polygon Offset Units"
 msgstr ""
 
-msgctxt "#30027"
+msgctxt "#30026"
 msgid "RSP Plugin"
 msgstr ""
 
-msgctxt "#30028"
+msgctxt "#30027"
 msgid "Resolution (restart)"
 msgstr ""
 
-msgctxt "#30029"
+msgctxt "#30028"
 msgid "Send audio lists to HLE RSP"
+msgstr ""
+
+msgctxt "#30029"
+msgid "(Glide64) Vertex cache VBO (restart)"
 msgstr ""
 
 msgctxt "#30030"
