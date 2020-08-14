@@ -77,11 +77,11 @@ msgid "Enable Expansion Pak RAM"
 msgstr ""
 
 msgctxt "#30015"
-msgid "Dithering"
+msgid "(Angrylion) Dithering"
 msgstr ""
 
 msgctxt "#30016"
-msgid "Texture Filtering"
+msgid "(Glide64) Texture Filtering"
 msgstr ""
 
 msgctxt "#30017"
