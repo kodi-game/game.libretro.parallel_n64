@@ -1,1 +1,1 @@
-parallel_n64 https://github.com/libretro/parallel-n64/archive/29e7f39e95af38c2c4056a825286261161eae640.zip
+parallel_n64 https://github.com/libretro/parallel-n64/archive/dba9fc8b64351b6cf3dfb0bec2ec39f01101f48e.zip
