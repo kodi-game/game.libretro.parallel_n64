@@ -4,9 +4,21 @@
 # Nintendo - Nintendo 64 (ParaLLEl N64)
 
 ### Description
+
 ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro.
 
 ### License
+
 GPLv2
 
+### Icon
 
+Help make me an icon!
+
+### Fanart
+
+Help make me fanart!
+
+### Screenshots
+
+Help make me screenshots!
