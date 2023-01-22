@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.parallel_n64"
 		name="Nintendo - Nintendo 64 (ParaLLEl N64)"
-		version="2.0.0.25"
+		version="2.0.0.26"
 		provider-name="Hacktarux, Mupen64Plus Team, TinyTiger, Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -18,6 +18,9 @@
 		<license>GPLv2</license>
 		<platform>@PLATFORM@</platform>
 		<source>https://github.com/kodi-game/game.libretro.parallel_n64</source>
+		<assets>
+			<icon>resources/icon.png</icon>
+		</assets>
 		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64) 2.0-rc2</summary>
 		<description lang="da_DK">ParaLLEl N64 er en optimeret/omskrevet Nintendo 64-emulator baseret på Mupen64 Plus. Den blev lavet specielt til Libretro.</description>
 		<description lang="en_GB">ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro.</description>
