@@ -24,6 +24,7 @@
 		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64) 2.0-rc2</summary>
 		<description lang="da_DK">ParaLLEl N64 er en optimeret/omskrevet Nintendo 64-emulator baseret på Mupen64 Plus. Den blev lavet specielt til Libretro.</description>
 		<description lang="en_GB">ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro.</description>
+		<description lang="es_ES">ParaLLEl N64 es un emulador optimizado/reescrito de Nintendo 64 basado en Mupen64 Plus. Se hizo específicamente para Libretro.</description>
 		<description lang="it_IT">ParaLLEl N64 è un emulatore Nintendo 64 ottimizzato/riscritto basato su Mupen64 Plus. È stato realizzato appositamente per Libretro.</description>
 		<description lang="zh_CN">ParaLLEl N64 是一款基于 Mupen64 Plus 优化/重写的任天堂64模拟器。它是专门为 Libretro 而开发的。</description>
 	</extension>
