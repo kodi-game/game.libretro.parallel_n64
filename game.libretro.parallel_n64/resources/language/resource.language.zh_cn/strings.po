@@ -7,15 +7,15 @@ msgstr ""
 "Project-Id-Version: game.libretro.parallel_n64\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2019-01-30 20:21i\n"
-"PO-Revision-Date: 2022-08-04 02:14+0000\n"
-"Last-Translator: taxigps <taxigps@sina.com>\n"
+"PO-Revision-Date: 2023-01-31 17:08+0000\n"
+"Last-Translator: Christian Gade <gade@kodi.tv>\n"
 "Language-Team: Chinese (China) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/zh_cn/>\n"
 "Language: zh_cn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15.2\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - Nintendo 64 (ParaLLEl N64) 2.0-rc2"
@@ -34,117 +34,329 @@ msgid "CPU Core"
 msgstr "CPU 核"
 
 msgctxt "#30002"
-msgid "Audio Buffer Size (restart)"
-msgstr "音频缓冲区大小（重新启动）"
+msgid "Graphics accuracy"
+msgstr "图形精度"
 
 msgctxt "#30003"
-msgid "Analog Deadzone (percent)"
-msgstr "模拟死区（百分比）"
+msgid "LLE RSP Plugin"
+msgstr "LLE RSP 插件"
 
 msgctxt "#30004"
-msgid "Analog Sensitivity (percent)"
-msgstr "模拟灵敏度（百分比）"
+msgid "Dithering"
+msgstr "抖动"
 
 msgctxt "#30005"
-msgid "Player 1 Pak"
-msgstr "玩家1 Pak"
+msgid "(Angrylion) VI Overlay"
+msgstr ""
 
 msgctxt "#30006"
-msgid "Player 2 Pak"
-msgstr "玩家2 Pak"
+msgid "(Angrylion) Multi-threading"
+msgstr ""
 
 msgctxt "#30007"
-msgid "Player 3 Pak"
-msgstr "玩家3 Pak"
+msgid "(Angrylion) Hide overscan"
+msgstr ""
 
 msgctxt "#30008"
-msgid "Player 4 Pak"
-msgstr "玩家4 Pak"
+msgid "(Angrylion) Thread sync level"
+msgstr ""
 
 msgctxt "#30009"
-msgid "Enable Expansion Pak RAM"
-msgstr "启用扩展 Pak RAM"
+msgid "4:3 Resolution (restart)"
+msgstr ""
 
 msgctxt "#30010"
-msgid "GFX Accuracy (restart)"
-msgstr "GFX 精度（重启）"
+msgid "16:9 Resolution"
+msgstr ""
 
 msgctxt "#30011"
-msgid "Send audio lists to HLE RSP"
-msgstr "向 HLE RSP 发送音频列表"
+msgid "Aspect Ratio"
+msgstr ""
 
 msgctxt "#30012"
-msgid "GFX Plugin"
-msgstr "GFX 插件"
+msgid "Bilinear filtering mode"
+msgstr ""
 
 msgctxt "#30013"
-msgid "RSP Plugin"
-msgstr "RSP 插件"
+msgid "MSAA level"
+msgstr ""
 
 msgctxt "#30014"
-msgid "Resolution (restart)"
-msgstr "分辨率（重新启动）"
+msgid "FXAA"
+msgstr ""
 
 msgctxt "#30015"
-msgid "Aspect ratio hint (reinit)"
-msgstr "纵横比提示（重新初始化）"
+msgid "Frame Duplication"
+msgstr ""
 
 msgctxt "#30016"
-msgid "(Glide64) Texture Filtering"
-msgstr "（Glide64）纹理过滤"
+msgid "Framerate"
+msgstr ""
 
 msgctxt "#30017"
-msgid "(Angrylion) Dithering"
-msgstr "（Angrylion）抖动"
+msgid "VI Refresh (Overclock)"
+msgstr ""
 
 msgctxt "#30018"
-msgid "(Glide64) Polygon Offset Factor"
-msgstr "（Glide64）多边形偏移因子"
+msgid "Noise Emulation"
+msgstr ""
 
 msgctxt "#30019"
-msgid "(Glide64) Polygon Offset Units"
-msgstr "（Glide64）多边形偏移单位"
+msgid "Framebuffer Emulation"
+msgstr ""
 
 msgctxt "#30020"
-msgid "(Angrylion) VI Overlay"
-msgstr "（Angrylion）VI 叠加"
+msgid "LOD Emulation"
+msgstr ""
 
 msgctxt "#30021"
-msgid "(Angrylion) Thread sync level"
-msgstr "（Angrylion）线程同步级别"
+msgid "Color buffer to RDRAM"
+msgstr ""
 
 msgctxt "#30022"
-msgid "(Angrylion) Multi-threading"
-msgstr "（Angrylion）多线程"
+msgid "Depth buffer to RDRAM"
+msgstr ""
 
 msgctxt "#30023"
-msgid "(Angrylion) Hide overscan"
-msgstr "（Angrylion）隐藏过扫描"
+msgid "Background Mode"
+msgstr ""
 
 msgctxt "#30024"
-msgid "VI Refresh (Overclock)"
-msgstr "VI 刷新（超频）"
+msgid "Hardware per-pixel lighting"
+msgstr ""
 
 msgctxt "#30025"
-msgid "Buffer Swap"
-msgstr "缓冲区交换"
+msgid "Continuous texrect coords"
+msgstr ""
 
 msgctxt "#30026"
-msgid "Framerate (restart)"
-msgstr "帧率（重启）"
+msgid "Native res. 2D texrects"
+msgstr ""
 
 msgctxt "#30027"
-msgid "Independent C-button Controls"
-msgstr "独立 C 按钮控制"
+msgid "Less accurate blending mode"
+msgstr ""
 
 msgctxt "#30028"
-msgid "(Glide64) Vertex cache VBO (restart)"
-msgstr "（Glide64）顶点缓存 VBO（重新启动）"
+msgid "GPU shader depth write"
+msgstr ""
 
 msgctxt "#30029"
-msgid "Boot Device"
-msgstr "引导设备"
+msgid "N64 Depth Compare"
+msgstr ""
 
 msgctxt "#30030"
-msgid "64DD Hardware"
-msgstr "64DD 硬件"
+msgid "Cache GPU Shaders"
+msgstr ""
+
+msgctxt "#30031"
+msgid "Cache Textures"
+msgstr ""
+
+msgctxt "#30032"
+msgid "Overscan"
+msgstr ""
+
+msgctxt "#30033"
+msgid "Overscan Offset (Top)"
+msgstr ""
+
+msgctxt "#30034"
+msgid "Overscan Offset (Left)"
+msgstr ""
+
+msgctxt "#30035"
+msgid "Overscan Offset (Right)"
+msgstr ""
+
+msgctxt "#30036"
+msgid "Overscan Offset (Bottom)"
+msgstr ""
+
+msgctxt "#30037"
+msgid "Max texture cache size"
+msgstr ""
+
+msgctxt "#30038"
+msgid "Texture filter"
+msgstr ""
+
+msgctxt "#30039"
+msgid "Texture Enhancement"
+msgstr ""
+
+msgctxt "#30040"
+msgid "Filter background textures"
+msgstr ""
+
+msgctxt "#30041"
+msgid "Use High-Res textures"
+msgstr ""
+
+msgctxt "#30042"
+msgid "Use High-Res Texture Cache Compression"
+msgstr ""
+
+msgctxt "#30043"
+msgid "Use High-Res Full Alpha Channel"
+msgstr ""
+
+msgctxt "#30044"
+msgid "Use enhanced Texture Storage"
+msgstr ""
+
+msgctxt "#30045"
+msgid "Use enhanced Hi-Res Storage"
+msgstr ""
+
+msgctxt "#30046"
+msgid "Framerate"
+msgstr ""
+
+msgctxt "#30047"
+msgid "VI Refresh (Overclock)"
+msgstr ""
+
+msgctxt "#30048"
+msgid "Analog Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30049"
+msgid "Analog Sensitivity (percent)"
+msgstr ""
+
+msgctxt "#30050"
+msgid "Player 1 Pak"
+msgstr ""
+
+msgctxt "#30051"
+msgid "Player 2 Pak"
+msgstr ""
+
+msgctxt "#30052"
+msgid "Player 3 Pak"
+msgstr ""
+
+msgctxt "#30053"
+msgid "Player 4 Pak"
+msgstr ""
+
+msgctxt "#30054"
+msgid "Count Per Op"
+msgstr ""
+
+#~ msgctxt "#30002"
+#~ msgid "Audio Buffer Size (restart)"
+#~ msgstr "音频缓冲区大小（重新启动）"
+
+#~ msgctxt "#30003"
+#~ msgid "Analog Deadzone (percent)"
+#~ msgstr "模拟死区（百分比）"
+
+#~ msgctxt "#30004"
+#~ msgid "Analog Sensitivity (percent)"
+#~ msgstr "模拟灵敏度（百分比）"
+
+#~ msgctxt "#30005"
+#~ msgid "Player 1 Pak"
+#~ msgstr "玩家1 Pak"
+
+#~ msgctxt "#30006"
+#~ msgid "Player 2 Pak"
+#~ msgstr "玩家2 Pak"
+
+#~ msgctxt "#30007"
+#~ msgid "Player 3 Pak"
+#~ msgstr "玩家3 Pak"
+
+#~ msgctxt "#30008"
+#~ msgid "Player 4 Pak"
+#~ msgstr "玩家4 Pak"
+
+#~ msgctxt "#30009"
+#~ msgid "Enable Expansion Pak RAM"
+#~ msgstr "启用扩展 Pak RAM"
+
+#~ msgctxt "#30010"
+#~ msgid "GFX Accuracy (restart)"
+#~ msgstr "GFX 精度（重启）"
+
+#~ msgctxt "#30011"
+#~ msgid "Send audio lists to HLE RSP"
+#~ msgstr "向 HLE RSP 发送音频列表"
+
+#~ msgctxt "#30012"
+#~ msgid "GFX Plugin"
+#~ msgstr "GFX 插件"
+
+#~ msgctxt "#30013"
+#~ msgid "RSP Plugin"
+#~ msgstr "RSP 插件"
+
+#~ msgctxt "#30014"
+#~ msgid "Resolution (restart)"
+#~ msgstr "分辨率（重新启动）"
+
+#~ msgctxt "#30015"
+#~ msgid "Aspect ratio hint (reinit)"
+#~ msgstr "纵横比提示（重新初始化）"
+
+#~ msgctxt "#30016"
+#~ msgid "(Glide64) Texture Filtering"
+#~ msgstr "（Glide64）纹理过滤"
+
+#~ msgctxt "#30017"
+#~ msgid "(Angrylion) Dithering"
+#~ msgstr "（Angrylion）抖动"
+
+#~ msgctxt "#30018"
+#~ msgid "(Glide64) Polygon Offset Factor"
+#~ msgstr "（Glide64）多边形偏移因子"
+
+#~ msgctxt "#30019"
+#~ msgid "(Glide64) Polygon Offset Units"
+#~ msgstr "（Glide64）多边形偏移单位"
+
+#~ msgctxt "#30020"
+#~ msgid "(Angrylion) VI Overlay"
+#~ msgstr "（Angrylion）VI 叠加"
+
+#~ msgctxt "#30021"
+#~ msgid "(Angrylion) Thread sync level"
+#~ msgstr "（Angrylion）线程同步级别"
+
+#~ msgctxt "#30022"
+#~ msgid "(Angrylion) Multi-threading"
+#~ msgstr "（Angrylion）多线程"
+
+#~ msgctxt "#30023"
+#~ msgid "(Angrylion) Hide overscan"
+#~ msgstr "（Angrylion）隐藏过扫描"
+
+#~ msgctxt "#30024"
+#~ msgid "VI Refresh (Overclock)"
+#~ msgstr "VI 刷新（超频）"
+
+#~ msgctxt "#30025"
+#~ msgid "Buffer Swap"
+#~ msgstr "缓冲区交换"
+
+#~ msgctxt "#30026"
+#~ msgid "Framerate (restart)"
+#~ msgstr "帧率（重启）"
+
+#~ msgctxt "#30027"
+#~ msgid "Independent C-button Controls"
+#~ msgstr "独立 C 按钮控制"
+
+#~ msgctxt "#30028"
+#~ msgid "(Glide64) Vertex cache VBO (restart)"
+#~ msgstr "（Glide64）顶点缓存 VBO（重新启动）"
+
+#~ msgctxt "#30029"
+#~ msgid "Boot Device"
+#~ msgstr "引导设备"
+
+#~ msgctxt "#30030"
+#~ msgid "64DD Hardware"
+#~ msgstr "64DD 硬件"
