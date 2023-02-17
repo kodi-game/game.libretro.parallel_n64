@@ -34,329 +34,117 @@ msgid "CPU Core"
 msgstr "CPU-kerne"
 
 msgctxt "#30002"
-msgid "Graphics accuracy"
-msgstr ""
+msgid "Audio Buffer Size (restart)"
+msgstr "Bufferstørrelse til lyd (genstart)"
 
 msgctxt "#30003"
-msgid "LLE RSP Plugin"
-msgstr ""
+msgid "Analog Deadzone (percent)"
+msgstr "Analog dødzone (procent)"
 
 msgctxt "#30004"
-msgid "Dithering"
-msgstr ""
+msgid "Analog Sensitivity (percent)"
+msgstr "Analog følsomhed (procent)"
 
 msgctxt "#30005"
-msgid "(Angrylion) VI Overlay"
-msgstr ""
+msgid "Player 1 Pak"
+msgstr "Spiller 1 Pakke"
 
 msgctxt "#30006"
-msgid "(Angrylion) Multi-threading"
-msgstr ""
+msgid "Player 2 Pak"
+msgstr "Spiller 2 Pakke"
 
 msgctxt "#30007"
-msgid "(Angrylion) Hide overscan"
-msgstr ""
+msgid "Player 3 Pak"
+msgstr "Spiller 3 Pakke"
 
 msgctxt "#30008"
-msgid "(Angrylion) Thread sync level"
-msgstr ""
+msgid "Player 4 Pak"
+msgstr "Spiller 4 Pakke"
 
 msgctxt "#30009"
-msgid "4:3 Resolution (restart)"
-msgstr ""
+msgid "Enable Expansion Pak RAM"
+msgstr "Aktiver RAM udvidelsespakke"
 
 msgctxt "#30010"
-msgid "16:9 Resolution"
-msgstr ""
+msgid "GFX Accuracy (restart)"
+msgstr "Nøjagtighed af GFX (genstart)"
 
 msgctxt "#30011"
-msgid "Aspect Ratio"
-msgstr ""
+msgid "Send audio lists to HLE RSP"
+msgstr "Send lydlister til HLE RSP"
 
 msgctxt "#30012"
-msgid "Bilinear filtering mode"
-msgstr ""
+msgid "GFX Plugin"
+msgstr "GFX Plugin"
 
 msgctxt "#30013"
-msgid "MSAA level"
-msgstr ""
+msgid "RSP Plugin"
+msgstr "RSP Plugin"
 
 msgctxt "#30014"
-msgid "FXAA"
-msgstr ""
+msgid "Resolution (restart)"
+msgstr "Opløsning (genstart)"
 
 msgctxt "#30015"
-msgid "Frame Duplication"
-msgstr ""
+msgid "Aspect ratio hint (reinit)"
+msgstr "Billedformat hint (reinit)"
 
 msgctxt "#30016"
-msgid "Framerate"
-msgstr ""
+msgid "(Glide64) Texture Filtering"
+msgstr "(Glide64) Filtrering af overflade"
 
 msgctxt "#30017"
-msgid "VI Refresh (Overclock)"
-msgstr ""
+msgid "(Angrylion) Dithering"
+msgstr "(Angrylion) Nuanceændring"
 
 msgctxt "#30018"
-msgid "Noise Emulation"
-msgstr ""
+msgid "(Glide64) Polygon Offset Factor"
+msgstr "(Glide64) Forskydningsfaktor for polygon"
 
 msgctxt "#30019"
-msgid "Framebuffer Emulation"
-msgstr ""
+msgid "(Glide64) Polygon Offset Units"
+msgstr "(Glide64) Forskydningsenheder for polygon"
 
 msgctxt "#30020"
-msgid "LOD Emulation"
-msgstr ""
+msgid "(Angrylion) VI Overlay"
+msgstr "(Angrylion) VI-overlejringer"
 
 msgctxt "#30021"
-msgid "Color buffer to RDRAM"
-msgstr ""
+msgid "(Angrylion) Thread sync level"
+msgstr "(Angrylion) Synkroniseringsniveau for thread"
 
 msgctxt "#30022"
-msgid "Depth buffer to RDRAM"
-msgstr ""
+msgid "(Angrylion) Multi-threading"
+msgstr "(Angrylion) Multi-threading"
 
 msgctxt "#30023"
-msgid "Background Mode"
-msgstr ""
+msgid "(Angrylion) Hide overscan"
+msgstr "(Angrylion) Skjul overskandering"
 
 msgctxt "#30024"
-msgid "Hardware per-pixel lighting"
-msgstr ""
+msgid "VI Refresh (Overclock)"
+msgstr "Opdater VI (overclock)"
 
 msgctxt "#30025"
-msgid "Continuous texrect coords"
-msgstr ""
+msgid "Buffer Swap"
+msgstr "Skift buffer"
 
 msgctxt "#30026"
-msgid "Native res. 2D texrects"
-msgstr ""
+msgid "Framerate (restart)"
+msgstr "Billedhastighed (genstart)"
 
 msgctxt "#30027"
-msgid "Less accurate blending mode"
-msgstr ""
+msgid "Independent C-button Controls"
+msgstr "Uafhængig C-knap kontrol"
 
 msgctxt "#30028"
-msgid "GPU shader depth write"
-msgstr ""
+msgid "(Glide64) Vertex cache VBO (restart)"
+msgstr "(Glide64) Vertex cache VBO (genstart)"
 
 msgctxt "#30029"
-msgid "N64 Depth Compare"
-msgstr ""
+msgid "Boot Device"
+msgstr "Opstartsenhed"
 
 msgctxt "#30030"
-msgid "Cache GPU Shaders"
-msgstr ""
-
-msgctxt "#30031"
-msgid "Cache Textures"
-msgstr ""
-
-msgctxt "#30032"
-msgid "Overscan"
-msgstr ""
-
-msgctxt "#30033"
-msgid "Overscan Offset (Top)"
-msgstr ""
-
-msgctxt "#30034"
-msgid "Overscan Offset (Left)"
-msgstr ""
-
-msgctxt "#30035"
-msgid "Overscan Offset (Right)"
-msgstr ""
-
-msgctxt "#30036"
-msgid "Overscan Offset (Bottom)"
-msgstr ""
-
-msgctxt "#30037"
-msgid "Max texture cache size"
-msgstr ""
-
-msgctxt "#30038"
-msgid "Texture filter"
-msgstr ""
-
-msgctxt "#30039"
-msgid "Texture Enhancement"
-msgstr ""
-
-msgctxt "#30040"
-msgid "Filter background textures"
-msgstr ""
-
-msgctxt "#30041"
-msgid "Use High-Res textures"
-msgstr ""
-
-msgctxt "#30042"
-msgid "Use High-Res Texture Cache Compression"
-msgstr ""
-
-msgctxt "#30043"
-msgid "Use High-Res Full Alpha Channel"
-msgstr ""
-
-msgctxt "#30044"
-msgid "Use enhanced Texture Storage"
-msgstr ""
-
-msgctxt "#30045"
-msgid "Use enhanced Hi-Res Storage"
-msgstr ""
-
-msgctxt "#30046"
-msgid "Framerate"
-msgstr ""
-
-msgctxt "#30047"
-msgid "VI Refresh (Overclock)"
-msgstr ""
-
-msgctxt "#30048"
-msgid "Analog Deadzone (percent)"
-msgstr ""
-
-msgctxt "#30049"
-msgid "Analog Sensitivity (percent)"
-msgstr ""
-
-msgctxt "#30050"
-msgid "Player 1 Pak"
-msgstr ""
-
-msgctxt "#30051"
-msgid "Player 2 Pak"
-msgstr ""
-
-msgctxt "#30052"
-msgid "Player 3 Pak"
-msgstr ""
-
-msgctxt "#30053"
-msgid "Player 4 Pak"
-msgstr ""
-
-msgctxt "#30054"
-msgid "Count Per Op"
-msgstr ""
-
-#~ msgctxt "#30002"
-#~ msgid "Audio Buffer Size (restart)"
-#~ msgstr "Bufferstørrelse til lyd (genstart)"
-
-#~ msgctxt "#30003"
-#~ msgid "Analog Deadzone (percent)"
-#~ msgstr "Analog dødzone (procent)"
-
-#~ msgctxt "#30004"
-#~ msgid "Analog Sensitivity (percent)"
-#~ msgstr "Analog følsomhed (procent)"
-
-#~ msgctxt "#30005"
-#~ msgid "Player 1 Pak"
-#~ msgstr "Spiller 1 Pakke"
-
-#~ msgctxt "#30006"
-#~ msgid "Player 2 Pak"
-#~ msgstr "Spiller 2 Pakke"
-
-#~ msgctxt "#30007"
-#~ msgid "Player 3 Pak"
-#~ msgstr "Spiller 3 Pakke"
-
-#~ msgctxt "#30008"
-#~ msgid "Player 4 Pak"
-#~ msgstr "Spiller 4 Pakke"
-
-#~ msgctxt "#30009"
-#~ msgid "Enable Expansion Pak RAM"
-#~ msgstr "Aktiver RAM udvidelsespakke"
-
-#~ msgctxt "#30010"
-#~ msgid "GFX Accuracy (restart)"
-#~ msgstr "Nøjagtighed af GFX (genstart)"
-
-#~ msgctxt "#30011"
-#~ msgid "Send audio lists to HLE RSP"
-#~ msgstr "Send lydlister til HLE RSP"
-
-#~ msgctxt "#30012"
-#~ msgid "GFX Plugin"
-#~ msgstr "GFX Plugin"
-
-#~ msgctxt "#30013"
-#~ msgid "RSP Plugin"
-#~ msgstr "RSP Plugin"
-
-#~ msgctxt "#30014"
-#~ msgid "Resolution (restart)"
-#~ msgstr "Opløsning (genstart)"
-
-#~ msgctxt "#30015"
-#~ msgid "Aspect ratio hint (reinit)"
-#~ msgstr "Billedformat hint (reinit)"
-
-#~ msgctxt "#30016"
-#~ msgid "(Glide64) Texture Filtering"
-#~ msgstr "(Glide64) Filtrering af overflade"
-
-#~ msgctxt "#30017"
-#~ msgid "(Angrylion) Dithering"
-#~ msgstr "(Angrylion) Nuanceændring"
-
-#~ msgctxt "#30018"
-#~ msgid "(Glide64) Polygon Offset Factor"
-#~ msgstr "(Glide64) Forskydningsfaktor for polygon"
-
-#~ msgctxt "#30019"
-#~ msgid "(Glide64) Polygon Offset Units"
-#~ msgstr "(Glide64) Forskydningsenheder for polygon"
-
-#~ msgctxt "#30020"
-#~ msgid "(Angrylion) VI Overlay"
-#~ msgstr "(Angrylion) VI-overlejringer"
-
-#~ msgctxt "#30021"
-#~ msgid "(Angrylion) Thread sync level"
-#~ msgstr "(Angrylion) Synkroniseringsniveau for thread"
-
-#~ msgctxt "#30022"
-#~ msgid "(Angrylion) Multi-threading"
-#~ msgstr "(Angrylion) Multi-threading"
-
-#~ msgctxt "#30023"
-#~ msgid "(Angrylion) Hide overscan"
-#~ msgstr "(Angrylion) Skjul overskandering"
-
-#~ msgctxt "#30024"
-#~ msgid "VI Refresh (Overclock)"
-#~ msgstr "Opdater VI (overclock)"
-
-#~ msgctxt "#30025"
-#~ msgid "Buffer Swap"
-#~ msgstr "Skift buffer"
-
-#~ msgctxt "#30026"
-#~ msgid "Framerate (restart)"
-#~ msgstr "Billedhastighed (genstart)"
-
-#~ msgctxt "#30027"
-#~ msgid "Independent C-button Controls"
-#~ msgstr "Uafhængig C-knap kontrol"
-
-#~ msgctxt "#30028"
-#~ msgid "(Glide64) Vertex cache VBO (restart)"
-#~ msgstr "(Glide64) Vertex cache VBO (genstart)"
-
-#~ msgctxt "#30029"
-#~ msgid "Boot Device"
-#~ msgstr "Opstartsenhed"
-
-#~ msgctxt "#30030"
-#~ msgid "64DD Hardware"
-#~ msgstr "64DD Hardware"
+msgid "64DD Hardware"
+msgstr "64DD Hardware"

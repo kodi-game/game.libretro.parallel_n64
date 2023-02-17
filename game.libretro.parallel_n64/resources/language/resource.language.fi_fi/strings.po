@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.parallel_n64\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2019-01-30 20:21i\n"
-"PO-Revision-Date: 2023-01-31 17:08+0000\n"
+"PO-Revision-Date: 2023-02-17 23:00+0000\n"
 "Last-Translator: Oskari Lavinto <olavinto@protonmail.com>\n"
 "Language-Team: Finnish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/fi_fi/>\n"
 "Language: fi_fi\n"
@@ -34,229 +34,153 @@ msgid "CPU Core"
 msgstr "Prosessoriydin"
 
 msgctxt "#30002"
-msgid "Graphics accuracy"
-msgstr ""
+msgid "Audio Buffer Size (restart)"
+msgstr "Äänipuskurin koko (uudelleenkäynnistys)"
 
 msgctxt "#30003"
-msgid "LLE RSP Plugin"
-msgstr ""
-
-msgctxt "#30004"
-msgid "Dithering"
-msgstr ""
-
-msgctxt "#30005"
-msgid "(Angrylion) VI Overlay"
-msgstr ""
-
-msgctxt "#30006"
-msgid "(Angrylion) Multi-threading"
-msgstr ""
-
-msgctxt "#30007"
-msgid "(Angrylion) Hide overscan"
-msgstr "(Angrylion) Piilota yliskannaus"
-
-msgctxt "#30008"
-msgid "(Angrylion) Thread sync level"
-msgstr ""
-
-msgctxt "#30009"
-msgid "4:3 Resolution (restart)"
-msgstr ""
-
-msgctxt "#30010"
-msgid "16:9 Resolution"
-msgstr ""
-
-msgctxt "#30011"
-msgid "Aspect Ratio"
-msgstr ""
-
-msgctxt "#30012"
-msgid "Bilinear filtering mode"
-msgstr ""
-
-msgctxt "#30013"
-msgid "MSAA level"
-msgstr ""
-
-msgctxt "#30014"
-msgid "FXAA"
-msgstr ""
-
-msgctxt "#30015"
-msgid "Frame Duplication"
-msgstr ""
-
-msgctxt "#30016"
-msgid "Framerate"
-msgstr ""
-
-msgctxt "#30017"
-msgid "VI Refresh (Overclock)"
-msgstr ""
-
-msgctxt "#30018"
-msgid "Noise Emulation"
-msgstr ""
-
-msgctxt "#30019"
-msgid "Framebuffer Emulation"
-msgstr ""
-
-msgctxt "#30020"
-msgid "LOD Emulation"
-msgstr ""
-
-msgctxt "#30021"
-msgid "Color buffer to RDRAM"
-msgstr ""
-
-msgctxt "#30022"
-msgid "Depth buffer to RDRAM"
-msgstr ""
-
-msgctxt "#30023"
-msgid "Background Mode"
-msgstr ""
-
-msgctxt "#30024"
-msgid "Hardware per-pixel lighting"
-msgstr ""
-
-msgctxt "#30025"
-msgid "Continuous texrect coords"
-msgstr ""
-
-msgctxt "#30026"
-msgid "Native res. 2D texrects"
-msgstr ""
-
-msgctxt "#30027"
-msgid "Less accurate blending mode"
-msgstr ""
-
-msgctxt "#30028"
-msgid "GPU shader depth write"
-msgstr ""
-
-msgctxt "#30029"
-msgid "N64 Depth Compare"
-msgstr ""
-
-msgctxt "#30030"
-msgid "Cache GPU Shaders"
-msgstr ""
-
-msgctxt "#30031"
-msgid "Cache Textures"
-msgstr ""
-
-msgctxt "#30032"
-msgid "Overscan"
-msgstr "Yliskannaus"
-
-msgctxt "#30033"
-msgid "Overscan Offset (Top)"
-msgstr "Yliskannauksen poikkeama (ylä)"
-
-msgctxt "#30034"
-msgid "Overscan Offset (Left)"
-msgstr "Yliskannauksen poikkeama (vasen)"
-
-msgctxt "#30035"
-msgid "Overscan Offset (Right)"
-msgstr "Yliskannauksen poikkeama (oikea)"
-
-msgctxt "#30036"
-msgid "Overscan Offset (Bottom)"
-msgstr "Yliskannauksen poikkeama (ala)"
-
-msgctxt "#30037"
-msgid "Max texture cache size"
-msgstr ""
-
-msgctxt "#30038"
-msgid "Texture filter"
-msgstr ""
-
-msgctxt "#30039"
-msgid "Texture Enhancement"
-msgstr ""
-
-msgctxt "#30040"
-msgid "Filter background textures"
-msgstr ""
-
-msgctxt "#30041"
-msgid "Use High-Res textures"
-msgstr ""
-
-msgctxt "#30042"
-msgid "Use High-Res Texture Cache Compression"
-msgstr ""
-
-msgctxt "#30043"
-msgid "Use High-Res Full Alpha Channel"
-msgstr ""
-
-msgctxt "#30044"
-msgid "Use enhanced Texture Storage"
-msgstr ""
-
-msgctxt "#30045"
-msgid "Use enhanced Hi-Res Storage"
-msgstr "Käytä parannettua korkearesoluutioista tallennusta"
-
-msgctxt "#30046"
-msgid "Framerate"
-msgstr ""
-
-msgctxt "#30047"
-msgid "VI Refresh (Overclock)"
-msgstr ""
-
-msgctxt "#30048"
 msgid "Analog Deadzone (percent)"
 msgstr "Analoginen kuollut alue (prosenttia)"
 
-msgctxt "#30049"
+msgctxt "#30004"
 msgid "Analog Sensitivity (percent)"
 msgstr "Analoginen herkkyys (prosenttia)"
 
-msgctxt "#30050"
+msgctxt "#30005"
 msgid "Player 1 Pak"
-msgstr ""
+msgstr "Pelaaja 1 Pak"
 
-msgctxt "#30051"
+msgctxt "#30006"
 msgid "Player 2 Pak"
-msgstr ""
+msgstr "Pelaaja 2 Pak"
 
-msgctxt "#30052"
+msgctxt "#30007"
 msgid "Player 3 Pak"
-msgstr ""
+msgstr "Pelaaja 3 Pak"
 
-msgctxt "#30053"
+msgctxt "#30008"
 msgid "Player 4 Pak"
+msgstr "Pelaaja 4 Pak"
+
+msgctxt "#30009"
+msgid "Enable Expansion Pak RAM"
 msgstr ""
 
-msgctxt "#30054"
-msgid "Count Per Op"
+msgctxt "#30010"
+msgid "GFX Accuracy (restart)"
+msgstr "GFX-tarkkuus (uudelleenkäynnistys)"
+
+msgctxt "#30011"
+msgid "Send audio lists to HLE RSP"
+msgstr "Lähetä äänilistat HLE RSP -lisäosalle"
+
+msgctxt "#30012"
+msgid "GFX Plugin"
+msgstr "GFX-lisäosa"
+
+msgctxt "#30013"
+msgid "RSP Plugin"
+msgstr "RSP-lisäosa"
+
+msgctxt "#30014"
+msgid "Resolution (restart)"
+msgstr "Resoluutio (uudelleenkäynnistys)"
+
+msgctxt "#30015"
+msgid "Aspect ratio hint (reinit)"
 msgstr ""
 
-#~ msgctxt "#30003"
-#~ msgid "Analog Deadzone (percent)"
-#~ msgstr "Analoginen kuollut alue (prosenttia)"
+msgctxt "#30016"
+msgid "(Glide64) Texture Filtering"
+msgstr "(Glide64) Tekstuurisuodatus"
 
-#~ msgctxt "#30004"
-#~ msgid "Analog Sensitivity (percent)"
-#~ msgstr "Analoginen herkkyys (prosenttia)"
+msgctxt "#30017"
+msgid "(Angrylion) Dithering"
+msgstr ""
 
-#~ msgctxt "#30023"
+msgctxt "#30018"
+msgid "(Glide64) Polygon Offset Factor"
+msgstr ""
+
+msgctxt "#30019"
+msgid "(Glide64) Polygon Offset Units"
+msgstr ""
+
+msgctxt "#30020"
+msgid "(Angrylion) VI Overlay"
+msgstr ""
+
+msgctxt "#30021"
+msgid "(Angrylion) Thread sync level"
+msgstr ""
+
+msgctxt "#30022"
+msgid "(Angrylion) Multi-threading"
+msgstr ""
+
+msgctxt "#30023"
+msgid "(Angrylion) Hide overscan"
+msgstr "(Angrylion) Piilota yliskannaus"
+
+msgctxt "#30024"
+msgid "VI Refresh (Overclock)"
+msgstr "VI-päivitys (ylikellotus)"
+
+msgctxt "#30025"
+msgid "Buffer Swap"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Framerate (restart)"
+msgstr "Kuvanopeus (uudelleenkäynnistys)"
+
+msgctxt "#30027"
+msgid "Independent C-button Controls"
+msgstr "Ruuppumattomat C-painikeohjaimet"
+
+msgctxt "#30028"
+msgid "(Glide64) Vertex cache VBO (restart)"
+msgstr ""
+
+msgctxt "#30029"
+msgid "Boot Device"
+msgstr ""
+
+msgctxt "#30030"
+msgid "64DD Hardware"
+msgstr "64DD-laitteisto"
+
+#~ msgctxt "#30007"
 #~ msgid "(Angrylion) Hide overscan"
 #~ msgstr "(Angrylion) Piilota yliskannaus"
 
-#~ msgctxt "#30026"
-#~ msgid "Framerate (restart)"
-#~ msgstr "Kuvanopeus (uudelleenkäynnistys)"
+#~ msgctxt "#30032"
+#~ msgid "Overscan"
+#~ msgstr "Yliskannaus"
+
+#~ msgctxt "#30033"
+#~ msgid "Overscan Offset (Top)"
+#~ msgstr "Yliskannauksen poikkeama (ylä)"
+
+#~ msgctxt "#30034"
+#~ msgid "Overscan Offset (Left)"
+#~ msgstr "Yliskannauksen poikkeama (vasen)"
+
+#~ msgctxt "#30035"
+#~ msgid "Overscan Offset (Right)"
+#~ msgstr "Yliskannauksen poikkeama (oikea)"
+
+#~ msgctxt "#30036"
+#~ msgid "Overscan Offset (Bottom)"
+#~ msgstr "Yliskannauksen poikkeama (ala)"
+
+#~ msgctxt "#30045"
+#~ msgid "Use enhanced Hi-Res Storage"
+#~ msgstr "Käytä parannettua korkearesoluutioista tallennusta"
+
+#~ msgctxt "#30048"
+#~ msgid "Analog Deadzone (percent)"
+#~ msgstr "Analoginen kuollut alue (prosenttia)"
+
+#~ msgctxt "#30049"
+#~ msgid "Analog Sensitivity (percent)"
+#~ msgstr "Analoginen herkkyys (prosenttia)"
