@@ -17,7 +17,7 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 msgctxt "Addon Summary"
-msgid "Nintendo - Nintendo 64 (ParaLLEl N64) 2.0-rc2"
+msgid "Nintendo - Nintendo 64 (ParaLLEl N64)"
 msgstr ""
 
 msgctxt "Addon Description"
