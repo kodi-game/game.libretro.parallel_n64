@@ -21,7 +21,7 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 		</assets>
-		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64) 2.0-rc2</summary>
+		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
 		<description lang="da_DK">ParaLLEl N64 er en optimeret/omskrevet Nintendo 64-emulator baseret på Mupen64 Plus. Den blev lavet specielt til Libretro.</description>
 		<description lang="de_DE">ParaLLEl N64 ist ein optimierter/umgeschriebener Nintendo-64-Emulator, der auf Mupen64 Plus basiert. Er wurde speziell für Libretro entwickelt.</description>
 		<description lang="en_GB">ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro.</description>
