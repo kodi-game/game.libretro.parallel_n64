@@ -77,164 +77,76 @@ msgctxt "#30024"
 msgid "VI Refresh (Overclock)"
 msgstr ""
 
-msgctxt "#30031"
-msgid "Graphics accuracy"
+msgctxt "#30071"
+msgid "Audio Buffer Size (restart)"
 msgstr ""
 
-msgctxt "#30032"
-msgid "LLE RSP Plugin"
+msgctxt "#30072"
+msgid "Enable Expansion Pak RAM"
 msgstr ""
 
-msgctxt "#30033"
-msgid "Dithering"
+msgctxt "#30073"
+msgid "GFX Accuracy (restart)"
 msgstr ""
 
-msgctxt "#30034"
-msgid "4:3 Resolution (restart)"
+msgctxt "#30074"
+msgid "Send audio lists to HLE RSP"
 msgstr ""
 
-msgctxt "#30035"
-msgid "16:9 Resolution"
+msgctxt "#30075"
+msgid "GFX Plugin"
 msgstr ""
 
-msgctxt "#30036"
-msgid "Aspect Ratio"
+msgctxt "#30076"
+msgid "RSP Plugin"
 msgstr ""
 
-msgctxt "#30037"
-msgid "Bilinear filtering mode"
+msgctxt "#30077"
+msgid "Resolution (restart)"
 msgstr ""
 
-msgctxt "#30038"
-msgid "MSAA level"
+msgctxt "#30078"
+msgid "Aspect ratio hint (reinit)"
 msgstr ""
 
-msgctxt "#30039"
-msgid "FXAA"
+msgctxt "#30079"
+msgid "(Glide64) Texture Filtering"
 msgstr ""
 
-msgctxt "#30040"
-msgid "Frame Duplication"
+msgctxt "#30080"
+msgid "(Angrylion) Dithering"
 msgstr ""
 
-msgctxt "#30041"
-msgid "Framerate"
+msgctxt "#30081"
+msgid "(Glide64) Polygon Offset Factor"
 msgstr ""
 
-msgctxt "#30042"
-msgid "Noise Emulation"
+msgctxt "#30082"
+msgid "(Glide64) Polygon Offset Units"
 msgstr ""
 
-msgctxt "#30043"
-msgid "Framebuffer Emulation"
+msgctxt "#30083"
+msgid "Buffer Swap"
 msgstr ""
 
-msgctxt "#30044"
-msgid "LOD Emulation"
+msgctxt "#30084"
+msgid "Framerate (restart)"
 msgstr ""
 
-msgctxt "#30045"
-msgid "Color buffer to RDRAM"
+msgctxt "#30085"
+msgid "Independent C-button Controls"
 msgstr ""
 
-msgctxt "#30046"
-msgid "Depth buffer to RDRAM"
+msgctxt "#30086"
+msgid "(Glide64) Vertex cache VBO (restart)"
 msgstr ""
 
-msgctxt "#30047"
-msgid "Background Mode"
+msgctxt "#30087"
+msgid "Boot Device"
 msgstr ""
 
-msgctxt "#30048"
-msgid "Hardware per-pixel lighting"
-msgstr ""
-
-msgctxt "#30049"
-msgid "Continuous texrect coords"
-msgstr ""
-
-msgctxt "#30050"
-msgid "Native res. 2D texrects"
-msgstr ""
-
-msgctxt "#30051"
-msgid "Less accurate blending mode"
-msgstr ""
-
-msgctxt "#30052"
-msgid "GPU shader depth write"
-msgstr ""
-
-msgctxt "#30053"
-msgid "N64 Depth Compare"
-msgstr ""
-
-msgctxt "#30054"
-msgid "Cache GPU Shaders"
-msgstr ""
-
-msgctxt "#30055"
-msgid "Cache Textures"
-msgstr ""
-
-msgctxt "#30056"
-msgid "Overscan"
-msgstr ""
-
-msgctxt "#30057"
-msgid "Overscan Offset (Top)"
-msgstr ""
-
-msgctxt "#30058"
-msgid "Overscan Offset (Left)"
-msgstr ""
-
-msgctxt "#30059"
-msgid "Overscan Offset (Right)"
-msgstr ""
-
-msgctxt "#30060"
-msgid "Overscan Offset (Bottom)"
-msgstr ""
-
-msgctxt "#30061"
-msgid "Max texture cache size"
-msgstr ""
-
-msgctxt "#30062"
-msgid "Texture filter"
-msgstr ""
-
-msgctxt "#30063"
-msgid "Texture Enhancement"
-msgstr ""
-
-msgctxt "#30064"
-msgid "Filter background textures"
-msgstr ""
-
-msgctxt "#30065"
-msgid "Use High-Res textures"
-msgstr ""
-
-msgctxt "#30066"
-msgid "Use High-Res Texture Cache Compression"
-msgstr ""
-
-msgctxt "#30067"
-msgid "Use High-Res Full Alpha Channel"
-msgstr ""
-
-msgctxt "#30068"
-msgid "Use enhanced Texture Storage"
-msgstr ""
-
-msgctxt "#30069"
-msgid "Use enhanced Hi-Res Storage"
-msgstr ""
-
-msgctxt "#30070"
-msgid "Count Per Op"
+msgctxt "#30088"
+msgid "64DD Hardware"
 msgstr ""
 
 #~ msgctxt "#30014"
