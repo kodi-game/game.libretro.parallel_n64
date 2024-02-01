@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.parallel_n64\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2019-01-30 20:21i\n"
-"PO-Revision-Date: 2024-01-11 20:32+0000\n"
+"PO-Revision-Date: 2024-02-01 22:13+0000\n"
 "Last-Translator: José Antonio Alvarado <jalvarado0.eses@gmail.com>\n"
 "Language-Team: Spanish (Spain) <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/es_es/>\n"
 "Language: es_es\n"
@@ -79,7 +79,7 @@ msgstr "Refresco VI (overclock)"
 
 msgctxt "#30071"
 msgid "Audio Buffer Size (restart)"
-msgstr "Tamaño del Búfer de Audio (reinicio)"
+msgstr "Tamaño del Búfer de Audio (reiniciar)"
 
 msgctxt "#30072"
 msgid "Enable Expansion Pak RAM"
@@ -87,7 +87,7 @@ msgstr "Activar la RAM del Paquete de Expansión"
 
 msgctxt "#30073"
 msgid "GFX Accuracy (restart)"
-msgstr "Precisión GFX (reinicio)"
+msgstr "Precisión GFX (reiniciar)"
 
 msgctxt "#30074"
 msgid "Send audio lists to HLE RSP"
@@ -103,7 +103,7 @@ msgstr "Plugin RSP"
 
 msgctxt "#30077"
 msgid "Resolution (restart)"
-msgstr "Resolución (reinicio)"
+msgstr "Resolución (reiniciar)"
 
 msgctxt "#30078"
 msgid "Aspect ratio hint (reinit)"
@@ -131,7 +131,7 @@ msgstr "Intercambio de Búfer"
 
 msgctxt "#30084"
 msgid "Framerate (restart)"
-msgstr "Tasa de Fotogramas (reinicio)"
+msgstr "Tasa de Fotogramas (reiniciar)"
 
 msgctxt "#30085"
 msgid "Independent C-button Controls"
@@ -139,7 +139,7 @@ msgstr "Controles de Botón C Independientes"
 
 msgctxt "#30086"
 msgid "(Glide64) Vertex cache VBO (restart)"
-msgstr "(Glide64) Caché de vértices VBO (reinicio)"
+msgstr "(Glide64) Caché de vértices VBO (reiniciar)"
 
 msgctxt "#30087"
 msgid "Boot Device"
