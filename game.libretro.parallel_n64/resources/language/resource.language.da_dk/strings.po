@@ -25,10 +25,6 @@ msgctxt "Addon Description"
 msgid "ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro."
 msgstr "ParaLLEl N64 er en optimeret/omskrevet Nintendo 64-emulator baseret på Mupen64 Plus. Den blev lavet specielt til Libretro."
 
-msgctxt "#30000"
-msgid "Settings"
-msgstr "Indstillinger"
-
 msgctxt "#30001"
 msgid "CPU Core"
 msgstr "CPU-kerne"
@@ -148,6 +144,10 @@ msgstr ""
 msgctxt "#30088"
 msgid "64DD Hardware"
 msgstr ""
+
+#~ msgctxt "#30000"
+#~ msgid "Settings"
+#~ msgstr "Indstillinger"
 
 #~ msgctxt "#30002"
 #~ msgid "Audio Buffer Size (restart)"
