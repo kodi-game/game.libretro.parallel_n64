@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
-	<category label="30000">
+	<category label="128">
 		<setting label="30001" type="select" id="parallel-n64-cpucore" values="dynamic_recompiler|cached_interpreter|pure_interpreter" default="dynamic_recompiler"/>
 		<setting label="30071" type="select" id="parallel-n64-audio-buffer-size" values="2048|1024" default="2048"/>
 		<setting label="30003" type="select" id="parallel-n64-astick-deadzone" values="15|20|25|30|0|5|10" default="15"/>
