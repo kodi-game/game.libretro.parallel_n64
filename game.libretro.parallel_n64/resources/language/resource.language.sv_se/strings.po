@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.parallel_n64\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2019-01-30 20:21i\n"
-"PO-Revision-Date: 2025-04-08 15:13+0000\n"
+"PO-Revision-Date: 2025-04-11 09:05+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/sv_se/>\n"
 "Language: sv_se\n"
@@ -27,7 +27,7 @@ msgstr "ParaLLEl N64 är en optimerad/omskriven Nintendo 64-emulator baserad på
 
 msgctxt "#30001"
 msgid "CPU Core"
-msgstr ""
+msgstr "CPU-kärna"
 
 msgctxt "#30003"
 msgid "Analog Deadzone (percent)"
