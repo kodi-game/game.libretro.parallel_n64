@@ -5,6 +5,9 @@
 		<setting label="30071" type="select" id="parallel-n64-audio-buffer-size" values="2048|1024" default="2048"/>
 		<setting label="30003" type="select" id="parallel-n64-astick-deadzone" values="15|20|25|30|0|5|10" default="15"/>
 		<setting label="30004" type="select" id="parallel-n64-astick-sensitivity" values="100|105|110|115|120|125|130|135|140|145|150|200|50|55|60|65|70|75|80|85|90|95" default="100"/>
+		<setting label="30089" type="select" id="parallel-n64-astick-snap-angle-active" values="disabled|enabled" default="disabled"/>
+		<setting label="30090" type="select" id="parallel-n64-astick-snap-max-angle" values="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21" default="1"/>
+		<setting label="30091" type="select" id="parallel-n64-astick-snap-min-displacement-percent" values="0|10|20|30|40|50|60|65|70|75|80|85|90|95" default="0"/>
 		<setting label="30005" type="select" id="parallel-n64-pak1" values="none|memory|rumble" default="none"/>
 		<setting label="30006" type="select" id="parallel-n64-pak2" values="none|memory|rumble" default="none"/>
 		<setting label="30007" type="select" id="parallel-n64-pak3" values="none|memory|rumble" default="none"/>
