@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.parallel_n64\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2019-01-30 20:21i\n"
-"PO-Revision-Date: 2025-04-11 09:05+0000\n"
+"PO-Revision-Date: 2025-04-17 04:26+0000\n"
 "Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
 "Language-Team: Swedish <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/sv_se/>\n"
 "Language: sv_se\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.10.4\n"
+"X-Generator: Weblate 5.11\n"
 
 msgctxt "Addon Summary"
 msgid "Nintendo - Nintendo 64 (ParaLLEl N64)"
@@ -31,119 +31,131 @@ msgstr "CPU-kärna"
 
 msgctxt "#30003"
 msgid "Analog Deadzone (percent)"
-msgstr ""
+msgstr "Analog dödzon (procent)"
 
 msgctxt "#30004"
 msgid "Analog Sensitivity (percent)"
-msgstr ""
+msgstr "Analog känslighet (procent)"
 
+#, fuzzy
 msgctxt "#30005"
 msgid "Player 1 Pak"
-msgstr ""
+msgstr "Spelare 1 Pak"
 
+#, fuzzy
 msgctxt "#30006"
 msgid "Player 2 Pak"
-msgstr ""
+msgstr "Spelare 2 Pak"
 
+#, fuzzy
 msgctxt "#30007"
 msgid "Player 3 Pak"
-msgstr ""
+msgstr "Spelare 3 Pak"
 
+#, fuzzy
 msgctxt "#30008"
 msgid "Player 4 Pak"
-msgstr ""
+msgstr "Spelare 4 Pak"
 
 msgctxt "#30020"
 msgid "(Angrylion) VI Overlay"
-msgstr ""
+msgstr "(Angrylion) VI-överlagring"
 
 msgctxt "#30021"
 msgid "(Angrylion) Thread sync level"
-msgstr ""
+msgstr "(Angrylion) Synkroniseringsnivå för tråd"
 
 msgctxt "#30022"
 msgid "(Angrylion) Multi-threading"
-msgstr ""
+msgstr "(Angrylion) Multitrådning"
 
 msgctxt "#30023"
 msgid "(Angrylion) Hide overscan"
-msgstr ""
+msgstr "(Angrylion) Dölj överskanning"
 
+#, fuzzy
 msgctxt "#30024"
 msgid "VI Refresh (Overclock)"
-msgstr ""
+msgstr "VI Uppdatering (överklockning)"
 
+#, fuzzy
 msgctxt "#30071"
 msgid "Audio Buffer Size (restart)"
-msgstr ""
+msgstr "Ljudbuffertstorlek (omstart)"
 
+#, fuzzy
 msgctxt "#30072"
 msgid "Enable Expansion Pak RAM"
-msgstr ""
+msgstr "Möjliggör expansion av Pak RAM"
 
+#, fuzzy
 msgctxt "#30073"
 msgid "GFX Accuracy (restart)"
-msgstr ""
+msgstr "GFX Noggrannhet (återstart)"
 
+#, fuzzy
 msgctxt "#30074"
 msgid "Send audio lists to HLE RSP"
-msgstr ""
+msgstr "Skicka ljudlistor till HLE RSP"
 
 msgctxt "#30075"
 msgid "GFX Plugin"
-msgstr ""
+msgstr "GFX-insticksmodul"
 
 msgctxt "#30076"
 msgid "RSP Plugin"
-msgstr ""
+msgstr "RSP-insticksmodul"
 
 msgctxt "#30077"
 msgid "Resolution (restart)"
-msgstr ""
+msgstr "Upplösning (omstart)"
 
+#, fuzzy
 msgctxt "#30078"
 msgid "Aspect ratio hint (reinit)"
-msgstr ""
+msgstr "Tips om bildförhållande (reinit)"
 
 msgctxt "#30079"
 msgid "(Glide64) Texture Filtering"
-msgstr ""
+msgstr "(Glide64) Texturfiltrering"
 
 msgctxt "#30080"
 msgid "(Angrylion) Dithering"
-msgstr ""
+msgstr "(Angrylion) Dithering"
 
 msgctxt "#30081"
 msgid "(Glide64) Polygon Offset Factor"
-msgstr ""
+msgstr "(Glide64) Faktor för polygonförskjutning"
 
 msgctxt "#30082"
 msgid "(Glide64) Polygon Offset Units"
-msgstr ""
+msgstr "(Glide64) Enheter för polygonförskjutning"
 
+#, fuzzy
 msgctxt "#30083"
 msgid "Buffer Swap"
-msgstr ""
+msgstr "Byte av buffert"
 
 msgctxt "#30084"
 msgid "Framerate (restart)"
-msgstr ""
+msgstr "Bildfrekvens(omstart)"
 
+#, fuzzy
 msgctxt "#30085"
 msgid "Independent C-button Controls"
-msgstr ""
+msgstr "Oberoende kontroller med C-knapp"
 
 msgctxt "#30086"
 msgid "(Glide64) Vertex cache VBO (restart)"
-msgstr ""
+msgstr "(Glide64) Vertexcache VBO (omstart)"
 
 msgctxt "#30087"
 msgid "Boot Device"
-msgstr ""
+msgstr "Uppstartsenhet"
 
 msgctxt "#30088"
 msgid "64DD Hardware"
-msgstr ""
+msgstr "64DD-hårdvara"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
