@@ -145,6 +145,18 @@ msgctxt "#30088"
 msgid "64DD Hardware"
 msgstr ""
 
+msgctxt "#30089"
+msgid "Snap Controller Angle"
+msgstr ""
+
+msgctxt "#30090"
+msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
+msgstr ""
+
+msgctxt "#30091"
+msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
+msgstr ""
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Nastavitve"
