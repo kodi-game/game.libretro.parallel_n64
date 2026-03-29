@@ -37,5 +37,6 @@
 		<description lang="zh_CN">ParaLLEl N64 是一款基于 Mupen64 Plus 优化/重写的任天堂64模拟器。它是专门为 Libretro 而开发的。</description>
 		<lifecyclestate type="broken" lang="en_GB">Use Mupen64Plus-Next for software rendereing.</lifecyclestate>
 		<lifecyclestate type="broken" lang="es_ES">Usa Mupen64Plus-Next para el renderizado por software.</lifecyclestate>
+		<lifecyclestate type="broken" lang="zh_CN">使用 Mupen64Plus-Next 进行软件渲染。</lifecyclestate>
 	</extension>
 </addon>
