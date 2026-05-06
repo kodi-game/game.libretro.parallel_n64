@@ -157,6 +157,10 @@ msgctxt "#30091"
 msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
 msgstr "Qué porcentaje de desplazamiento del joystick desde el centro implica activar la mordida (cero quiere decir siempre)"
 
+#~ msgctxt "Addon Lifecyclestate"
+#~ msgid "Use Mupen64Plus-Next for software rendereing."
+#~ msgstr "Usa Mupen64Plus-Next para el renderizado por software."
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "Ajustes"

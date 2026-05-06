@@ -157,6 +157,10 @@ msgctxt "#30091"
 msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
 msgstr "摇杆偏离中心的位移百分比是多少，会导致快门启动（0 表示始终启动）"
 
+#~ msgctxt "Addon Lifecyclestate"
+#~ msgid "Use Mupen64Plus-Next for software rendereing."
+#~ msgstr "使用 Mupen64Plus-Next 进行软件渲染。"
+
 #~ msgctxt "#30000"
 #~ msgid "Settings"
 #~ msgstr "设置"
