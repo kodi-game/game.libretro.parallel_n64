@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addon id="game.libretro.parallel_n64"
 		name="Nintendo - Nintendo 64 (ParaLLEl N64)"
-		version="2.0.0.43"
+		version="2.0.0.44"
 		provider-name="Hacktarux, Mupen64Plus Team, TinyTiger, Libretro">
 	<requires>
 		<import addon="game.libretro" version="1.0.0"/>
@@ -12,6 +12,7 @@
 		<extensions>n64|v64|z64|bin|u1|ndd</extensions>
 		<supports_vfs>true</supports_vfs>
 		<supports_standalone>false</supports_standalone>
+		<supports_disc_control>false</supports_disc_control>
 		<requires_opengl>true</requires_opengl>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -35,8 +36,5 @@
 		<description lang="it_IT">ParaLLEl N64 è un emulatore Nintendo 64 ottimizzato/riscritto basato su Mupen64 Plus. È stato realizzato appositamente per Libretro.</description>
 		<description lang="sv_SE">ParaLLEl N64 är en optimerad/omskriven Nintendo 64-emulator baserad på Mupen64 Plus. Den är speciellt framtagen för Libretro.</description>
 		<description lang="zh_CN">ParaLLEl N64 是一款基于 Mupen64 Plus 优化/重写的任天堂64模拟器。它是专门为 Libretro 而开发的。</description>
-		<lifecyclestate type="broken" lang="en_GB">Use Mupen64Plus-Next for software rendereing.</lifecyclestate>
-		<lifecyclestate type="broken" lang="es_ES">Usa Mupen64Plus-Next para el renderizado por software.</lifecyclestate>
-		<lifecyclestate type="broken" lang="zh_CN">使用 Mupen64Plus-Next 进行软件渲染。</lifecyclestate>
 	</extension>
 </addon>
