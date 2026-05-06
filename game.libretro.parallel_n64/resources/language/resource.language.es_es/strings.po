@@ -25,6 +25,10 @@ msgctxt "Addon Description"
 msgid "ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro."
 msgstr "ParaLLEl N64 es un emulador optimizado/reescrito de Nintendo 64 basado en Mupen64 Plus. Se hizo específicamente para Libretro."
 
+msgctxt "Addon Lifecyclestate"
+msgid "Use Mupen64Plus-Next for software rendereing."
+msgstr "Usa Mupen64Plus-Next para el renderizado por software."
+
 msgctxt "#30001"
 msgid "CPU Core"
 msgstr "Núcleo CPU"
@@ -156,10 +160,6 @@ msgstr "Ángulo Máximo de Mordida (un valor de 5 sinifica que de 85 a 95 grados
 msgctxt "#30091"
 msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
 msgstr "Qué porcentaje de desplazamiento del joystick desde el centro implica activar la mordida (cero quiere decir siempre)"
-
-#~ msgctxt "Addon Lifecyclestate"
-#~ msgid "Use Mupen64Plus-Next for software rendereing."
-#~ msgstr "Usa Mupen64Plus-Next para el renderizado por software."
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
