@@ -26,6 +26,7 @@
 		<summary lang="en_GB">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
 		<summary lang="es_ES">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
 		<summary lang="ga">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
+		<summary lang="ru_RU">Nintendo — Nintendo 64 (ParaLLEl N64)</summary>
 		<summary lang="sv_SE">Nintendo - Nintendo 64 (ParaLLEl N64)</summary>
 		<summary lang="zh_CN">任天堂 - 任天堂64（ParaLLEl N64）</summary>
 		<description lang="da_DK">ParaLLEl N64 er en optimeret/omskrevet Nintendo 64-emulator baseret på Mupen64 Plus. Den blev lavet specielt til Libretro.</description>
@@ -34,10 +35,12 @@
 		<description lang="es_ES">ParaLLEl N64 es un emulador optimizado/reescrito de Nintendo 64 basado en Mupen64 Plus. Se hizo específicamente para Libretro.</description>
 		<description lang="ga">Is aithriseoir Nintendo 64 atá optamaithe/athscríofa é ParaLLEl N64 atá bunaithe ar Mupen64 Plus. Rinneadh é go sonrach do Libretro.</description>
 		<description lang="it_IT">ParaLLEl N64 è un emulatore Nintendo 64 ottimizzato/riscritto basato su Mupen64 Plus. È stato realizzato appositamente per Libretro.</description>
+		<description lang="ru_RU">ParaLLEl N64 — это оптимизированный/переписанный эмулятор Nintendo 64, основанный на Mupen64 Plus. Он был создан специально для Libretro.</description>
 		<description lang="sv_SE">ParaLLEl N64 är en optimerad/omskriven Nintendo 64-emulator baserad på Mupen64 Plus. Den är speciellt framtagen för Libretro.</description>
 		<description lang="zh_CN">ParaLLEl N64 是一款基于 Mupen64 Plus 优化/重写的任天堂64模拟器。它是专门为 Libretro 而开发的。</description>
 		<lifecyclestate type="broken" lang="en_GB">Use Mupen64Plus-Next for software rendereing.</lifecyclestate>
 		<lifecyclestate type="broken" lang="es_ES">Usa Mupen64Plus-Next para el renderizado por software.</lifecyclestate>
+		<lifecyclestate type="broken" lang="ru_RU">Используйте Mupen64Plus-Next для программной отрисовки.</lifecyclestate>
 		<lifecyclestate type="broken" lang="zh_CN">使用 Mupen64Plus-Next 进行软件渲染。</lifecyclestate>
 	</extension>
 </addon>
