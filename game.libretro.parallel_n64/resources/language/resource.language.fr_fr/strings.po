@@ -29,6 +29,14 @@ msgctxt "#30001"
 msgid "CPU Core"
 msgstr ""
 
+msgctxt "#30003"
+msgid "Analog Deadzone (percent)"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Analog Sensitivity (percent)"
+msgstr ""
+
 msgctxt "#30005"
 msgid "Player 1 Pak"
 msgstr ""
@@ -65,8 +73,20 @@ msgctxt "#30024"
 msgid "VI Refresh (Overclock)"
 msgstr ""
 
+msgctxt "#30071"
+msgid "Audio Buffer Size (restart)"
+msgstr ""
+
 msgctxt "#30072"
 msgid "Enable Expansion Pak RAM"
+msgstr ""
+
+msgctxt "#30073"
+msgid "GFX Accuracy (restart)"
+msgstr ""
+
+msgctxt "#30074"
+msgid "Send audio lists to HLE RSP"
 msgstr ""
 
 msgctxt "#30075"
@@ -75,6 +95,14 @@ msgstr ""
 
 msgctxt "#30076"
 msgid "RSP Plugin"
+msgstr ""
+
+msgctxt "#30077"
+msgid "Resolution (restart)"
+msgstr ""
+
+msgctxt "#30078"
+msgid "Aspect ratio hint (reinit)"
 msgstr ""
 
 msgctxt "#30079"
@@ -93,8 +121,20 @@ msgctxt "#30082"
 msgid "(Glide64) Polygon Offset Units"
 msgstr ""
 
+msgctxt "#30083"
+msgid "Buffer Swap"
+msgstr ""
+
+msgctxt "#30084"
+msgid "Framerate (restart)"
+msgstr "Fréquence d'images (redémarrage)"
+
 msgctxt "#30085"
 msgid "Independent C-button Controls"
+msgstr ""
+
+msgctxt "#30086"
+msgid "(Glide64) Vertex cache VBO (restart)"
 msgstr ""
 
 msgctxt "#30087"
@@ -109,257 +149,13 @@ msgctxt "#30089"
 msgid "Snap Controller Angle"
 msgstr ""
 
-msgctxt "#30092"
-msgid "Game-specific framerate unlock (Hint)"
+msgctxt "#30090"
+msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
 msgstr ""
 
-msgctxt "#30093"
-msgid "Game-specific widescreen (Hint)"
+msgctxt "#30091"
+msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
 msgstr ""
-
-msgctxt "#30094"
-msgid "Analog Deadzone"
-msgstr ""
-
-msgctxt "#30095"
-msgid "Analog Sensitivity"
-msgstr ""
-
-msgctxt "#30096"
-msgid "Mouse to Analog Stick"
-msgstr ""
-
-msgctxt "#30097"
-msgid "Mouse Sensitivity X (percent)"
-msgstr ""
-
-msgctxt "#30098"
-msgid "Mouse Sensitivity Y (percent)"
-msgstr ""
-
-msgctxt "#30099"
-msgid "Mouse Left Click"
-msgstr ""
-
-msgctxt "#30100"
-msgid "Mouse Right Click"
-msgstr ""
-
-msgctxt "#30101"
-msgid "Mouse Middle Click"
-msgstr ""
-
-msgctxt "#30102"
-msgid "Mouse Wheel Up"
-msgstr ""
-
-msgctxt "#30103"
-msgid "Mouse Wheel Down"
-msgstr ""
-
-msgctxt "#30104"
-msgid "Maximum Snap Angle"
-msgstr ""
-
-msgctxt "#30105"
-msgid "Snap Minimum Displacement (%)"
-msgstr ""
-
-msgctxt "#30106"
-msgid "GFX Accuracy"
-msgstr ""
-
-msgctxt "#30107"
-msgid "Audio Processing (HLE RSP)"
-msgstr ""
-
-msgctxt "#30108"
-msgid "Resolution"
-msgstr ""
-
-msgctxt "#30109"
-msgid "Aspect ratio hint"
-msgstr ""
-
-msgctxt "#30110"
-msgid "Frame Duplication (restart)"
-msgstr ""
-
-msgctxt "#30111"
-msgid "(Glide64) Vertex cache VBO"
-msgstr ""
-
-msgctxt "#30112"
-msgid "Unaligned DMA Behaviour"
-msgstr ""
-
-msgctxt "#30113"
-msgid "Allow Large Roms"
-msgstr ""
-
-msgctxt "#30114"
-msgid "Widescreen Hack"
-msgstr ""
-
-msgctxt "#30115"
-msgid "Native Resolution Factor"
-msgstr ""
-
-msgctxt "#30116"
-msgid "Bilinear filtering mode"
-msgstr ""
-
-msgctxt "#30117"
-msgid "MSAA level"
-msgstr ""
-
-msgctxt "#30118"
-msgid "FXAA"
-msgstr ""
-
-msgctxt "#30119"
-msgid "LOD Emulation"
-msgstr ""
-
-msgctxt "#30120"
-msgid "Framebuffer Emulation"
-msgstr ""
-
-msgctxt "#30121"
-msgid "Copy auxiliary buffers to RDRAM"
-msgstr ""
-
-msgctxt "#30122"
-msgid "Color buffer to RDRAM"
-msgstr ""
-
-msgctxt "#30123"
-msgid "Color buffer from RDRAM"
-msgstr ""
-
-msgctxt "#30124"
-msgid "Depth buffer to RDRAM"
-msgstr ""
-
-msgctxt "#30125"
-msgid "Background Mode"
-msgstr ""
-
-msgctxt "#30126"
-msgid "Hardware per-pixel lighting"
-msgstr ""
-
-msgctxt "#30127"
-msgid "Continuous texrect coords"
-msgstr ""
-
-msgctxt "#30128"
-msgid "Enable inaccurate texture coordinates"
-msgstr ""
-
-msgctxt "#30129"
-msgid "Native res. 2D texrects"
-msgstr ""
-
-msgctxt "#30130"
-msgid "Less accurate blending mode"
-msgstr ""
-
-msgctxt "#30131"
-msgid "GPU shader depth write"
-msgstr ""
-
-msgctxt "#30132"
-msgid "N64 Depth Compare"
-msgstr ""
-
-msgctxt "#30133"
-msgid "Cache GPU Shaders"
-msgstr ""
-
-msgctxt "#30134"
-msgid "Cache Textures"
-msgstr ""
-
-msgctxt "#30135"
-msgid "Overscan"
-msgstr ""
-
-msgctxt "#30136"
-msgid "Overscan Offset (Top)"
-msgstr ""
-
-msgctxt "#30137"
-msgid "Overscan Offset (Left)"
-msgstr ""
-
-msgctxt "#30138"
-msgid "Overscan Offset (Right)"
-msgstr ""
-
-msgctxt "#30139"
-msgid "Overscan Offset (Bottom)"
-msgstr ""
-
-msgctxt "#30140"
-msgid "Texture filter"
-msgstr ""
-
-msgctxt "#30141"
-msgid "Texture Enhancement"
-msgstr ""
-
-msgctxt "#30142"
-msgid "Don't filter background textures"
-msgstr ""
-
-msgctxt "#30143"
-msgid "Use High-Res textures"
-msgstr ""
-
-msgctxt "#30144"
-msgid "Use High-Res Texture Cache Compression"
-msgstr ""
-
-msgctxt "#30145"
-msgid "Use High-Res Full Alpha Channel"
-msgstr ""
-
-msgctxt "#30146"
-msgid "Use alternative method for High-Res Checksums"
-msgstr ""
-
-msgctxt "#30147"
-msgid "INI Behaviour"
-msgstr ""
-
-msgctxt "#30148"
-msgid "Patch SM64 Hacks made with SM64 Editor"
-msgstr ""
-
-msgctxt "#30149"
-msgid "Fix VI Resolution"
-msgstr ""
-
-msgctxt "#30150"
-msgid "Save type for unknown ROMs"
-msgstr ""
-
-msgctxt "#30151"
-msgid "IS Viewer emulation"
-msgstr ""
-
-msgctxt "#30152"
-msgid "Emulate flashcart SD drive"
-msgstr ""
-
-msgctxt "#30153"
-msgid "Rollback N64 system clock on savestate load"
-msgstr ""
-
-#~ msgctxt "#30084"
-#~ msgid "Framerate (restart)"
-#~ msgstr "Fréquence d'images (redémarrage)"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
