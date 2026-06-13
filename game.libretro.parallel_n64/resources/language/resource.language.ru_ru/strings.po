@@ -25,6 +25,10 @@ msgctxt "Addon Description"
 msgid "ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro."
 msgstr "ParaLLEl N64 — это оптимизированный/переписанный эмулятор Nintendo 64, основанный на Mupen64 Plus. Он был создан специально для Libretro."
 
+msgctxt "Addon Lifecyclestate"
+msgid "Use Mupen64Plus-Next for software rendereing."
+msgstr "Используйте Mupen64Plus-Next для программной отрисовки."
+
 msgctxt "#30001"
 msgid "CPU Core"
 msgstr "Ядро ЦП"
