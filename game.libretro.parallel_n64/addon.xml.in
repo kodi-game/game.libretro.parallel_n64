@@ -44,6 +44,7 @@
 		<lifecyclestate type="broken" lang="cs_CZ">Pro softwarové vykreslování použijte Mupen64Plus-Next.</lifecyclestate>
 		<lifecyclestate type="broken" lang="en_GB">Use Mupen64Plus-Next for software rendereing.</lifecyclestate>
 		<lifecyclestate type="broken" lang="es_ES">Usa Mupen64Plus-Next para el renderizado por software.</lifecyclestate>
+		<lifecyclestate type="broken" lang="it_IT">Usa Mupen64Plus-Next per il rendering software.</lifecyclestate>
 		<lifecyclestate type="broken" lang="ru_RU">Используйте Mupen64Plus-Next для программной отрисовки.</lifecyclestate>
 		<lifecyclestate type="broken" lang="zh_CN">使用 Mupen64Plus-Next 进行软件渲染。</lifecyclestate>
 	</extension>
