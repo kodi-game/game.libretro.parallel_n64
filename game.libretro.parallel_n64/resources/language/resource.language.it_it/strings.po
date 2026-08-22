@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: game.libretro.parallel_n64\n"
 "Report-Msgid-Bugs-To: translations@kodi.tv\n"
 "POT-Creation-Date: 2019-01-30 20:21i\n"
-"PO-Revision-Date: 2026-08-15 22:28+0000\n"
+"PO-Revision-Date: 2026-08-22 00:08+0000\n"
 "Last-Translator: Massimo Pissarello <mapi68@gmail.com>\n"
 "Language-Team: Italian <https://kodi.weblate.cloud/projects/kodi-add-ons-game/game-libretro-parallel_n64/it_it/>\n"
 "Language: it_it\n"
@@ -27,7 +27,7 @@ msgstr "ParaLLEl N64 è un emulatore Nintendo 64 ottimizzato/riscritto basato su
 
 msgctxt "Addon Lifecyclestate"
 msgid "Use Mupen64Plus-Next for software rendereing."
-msgstr ""
+msgstr "Usa Mupen64Plus-Next per il rendering software."
 
 msgctxt "#30001"
 msgid "CPU Core"
@@ -39,127 +39,127 @@ msgstr "Zona morta analogica (percentuale)"
 
 msgctxt "#30004"
 msgid "Analog Sensitivity (percent)"
-msgstr ""
+msgstr "Sensibilità analogica (percentuale)"
 
 msgctxt "#30005"
 msgid "Player 1 Pak"
-msgstr ""
+msgstr "Pak giocatore 1"
 
 msgctxt "#30006"
 msgid "Player 2 Pak"
-msgstr ""
+msgstr "Pak giocatore 2"
 
 msgctxt "#30007"
 msgid "Player 3 Pak"
-msgstr ""
+msgstr "Pak giocatore 3"
 
 msgctxt "#30008"
 msgid "Player 4 Pak"
-msgstr ""
+msgstr "Pak giocatore 4"
 
 msgctxt "#30020"
 msgid "(Angrylion) VI Overlay"
-msgstr ""
+msgstr "(Angrylion) Overlay VI"
 
 msgctxt "#30021"
 msgid "(Angrylion) Thread sync level"
-msgstr ""
+msgstr "(Angrylion) Livello sincronizzazione thread"
 
 msgctxt "#30022"
 msgid "(Angrylion) Multi-threading"
-msgstr ""
+msgstr "(Angrylion) Multithreading"
 
 msgctxt "#30023"
 msgid "(Angrylion) Hide overscan"
-msgstr ""
+msgstr "(Angrylion) Nascondi overscan"
 
 msgctxt "#30024"
 msgid "VI Refresh (Overclock)"
-msgstr ""
+msgstr "Aggiornamento VI (overclock)"
 
 msgctxt "#30071"
 msgid "Audio Buffer Size (restart)"
-msgstr ""
+msgstr "Dimensione buffer audio (richiede riavvio)"
 
 msgctxt "#30072"
 msgid "Enable Expansion Pak RAM"
-msgstr ""
+msgstr "Abilita RAM Expansion Pak"
 
 msgctxt "#30073"
 msgid "GFX Accuracy (restart)"
-msgstr ""
+msgstr "Accuratezza grafica (richiede riavvio)"
 
 msgctxt "#30074"
 msgid "Send audio lists to HLE RSP"
-msgstr ""
+msgstr "Invia liste audio a RSP HLE"
 
 msgctxt "#30075"
 msgid "GFX Plugin"
-msgstr ""
+msgstr "Plugin grafico"
 
 msgctxt "#30076"
 msgid "RSP Plugin"
-msgstr ""
+msgstr "Plugin RSP"
 
 msgctxt "#30077"
 msgid "Resolution (restart)"
-msgstr "Risoluzione (riavvio)"
+msgstr "Risoluzione (richiede riavvio)"
 
 msgctxt "#30078"
 msgid "Aspect ratio hint (reinit)"
-msgstr ""
+msgstr "Suggerimento proporzioni (reinizializza)"
 
 msgctxt "#30079"
 msgid "(Glide64) Texture Filtering"
-msgstr ""
+msgstr "(Glide64) Filtro texture"
 
 msgctxt "#30080"
 msgid "(Angrylion) Dithering"
-msgstr ""
+msgstr "(Angrylion) Dithering"
 
 msgctxt "#30081"
 msgid "(Glide64) Polygon Offset Factor"
-msgstr ""
+msgstr "(Glide64) Fattore offset poligoni"
 
 msgctxt "#30082"
 msgid "(Glide64) Polygon Offset Units"
-msgstr ""
+msgstr "(Glide64) Unità offset poligoni"
 
 msgctxt "#30083"
 msgid "Buffer Swap"
-msgstr ""
+msgstr "Scambio buffer"
 
 msgctxt "#30084"
 msgid "Framerate (restart)"
-msgstr "Frequenza fotogrammi (riavvio)"
+msgstr "Frequenza fotogrammi (richiede riavvio)"
 
 msgctxt "#30085"
 msgid "Independent C-button Controls"
-msgstr ""
+msgstr "Controlli indipendenti pulsanti C"
 
 msgctxt "#30086"
 msgid "(Glide64) Vertex cache VBO (restart)"
-msgstr ""
+msgstr "(Glide64) VBO cache vertici (richiede riavvio)"
 
 msgctxt "#30087"
 msgid "Boot Device"
-msgstr ""
+msgstr "Dispositivo di avvio"
 
 msgctxt "#30088"
 msgid "64DD Hardware"
-msgstr ""
+msgstr "Hardware 64DD"
 
 msgctxt "#30089"
 msgid "Snap Controller Angle"
-msgstr ""
+msgstr "Scatta angolo controller"
 
 msgctxt "#30090"
 msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
-msgstr ""
+msgstr "Angolo massimo di scatto (un valore di 5 significa che da 85 a 95 gradi vengono scattati a 90)"
 
 msgctxt "#30091"
 msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
-msgstr ""
+msgstr "Percentuale di spostamento della levetta dal centro che attiva lo scatto (zero significa sempre)"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"
