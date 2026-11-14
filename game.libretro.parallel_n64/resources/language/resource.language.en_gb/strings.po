@@ -24,23 +24,19 @@ msgctxt "Addon Description"
 msgid "ParaLLEl N64 is an optimized/rewritten Nintendo 64 emulator based on Mupen64 Plus. It was made specifically for Libretro."
 msgstr ""
 
-msgctxt "Addon Lifecyclestate"
-msgid "Use Mupen64Plus-Next for software rendereing."
-msgstr ""
-
 # Empty string with ID 30000
 
 msgctxt "#30001"
 msgid "CPU Core"
 msgstr ""
 
-msgctxt "#30003"
-msgid "Analog Deadzone (percent)"
-msgstr ""
+#~ msgctxt "#30003"
+#~ msgid "Analog Deadzone (percent)"
+#~ msgstr ""
 
-msgctxt "#30004"
-msgid "Analog Sensitivity (percent)"
-msgstr ""
+#~ msgctxt "#30004"
+#~ msgid "Analog Sensitivity (percent)"
+#~ msgstr ""
 
 msgctxt "#30005"
 msgid "Player 1 Pak"
@@ -58,89 +54,89 @@ msgctxt "#30008"
 msgid "Player 4 Pak"
 msgstr ""
 
-msgctxt "#30020"
-msgid "(Angrylion) VI Overlay"
-msgstr ""
+#~ msgctxt "#30020"
+#~ msgid "(Angrylion) VI Overlay"
+#~ msgstr ""
 
-msgctxt "#30021"
-msgid "(Angrylion) Thread sync level"
-msgstr ""
+#~ msgctxt "#30021"
+#~ msgid "(Angrylion) Thread sync level"
+#~ msgstr ""
 
-msgctxt "#30022"
-msgid "(Angrylion) Multi-threading"
-msgstr ""
+#~ msgctxt "#30022"
+#~ msgid "(Angrylion) Multi-threading"
+#~ msgstr ""
 
-msgctxt "#30023"
-msgid "(Angrylion) Hide overscan"
-msgstr ""
+#~ msgctxt "#30023"
+#~ msgid "(Angrylion) Hide overscan"
+#~ msgstr ""
 
-msgctxt "#30024"
-msgid "VI Refresh (Overclock)"
-msgstr ""
+#~ msgctxt "#30024"
+#~ msgid "VI Refresh (Overclock)"
+#~ msgstr ""
 
-msgctxt "#30071"
-msgid "Audio Buffer Size (restart)"
-msgstr ""
+#~ msgctxt "#30071"
+#~ msgid "Audio Buffer Size (restart)"
+#~ msgstr ""
 
 msgctxt "#30072"
 msgid "Enable Expansion Pak RAM"
 msgstr ""
 
-msgctxt "#30073"
-msgid "GFX Accuracy (restart)"
-msgstr ""
+#~ msgctxt "#30073"
+#~ msgid "GFX Accuracy (restart)"
+#~ msgstr ""
 
-msgctxt "#30074"
-msgid "Send audio lists to HLE RSP"
-msgstr ""
+#~ msgctxt "#30074"
+#~ msgid "Send audio lists to HLE RSP"
+#~ msgstr ""
 
-msgctxt "#30075"
-msgid "GFX Plugin"
-msgstr ""
+#~ msgctxt "#30075"
+#~ msgid "GFX Plugin"
+#~ msgstr ""
 
 msgctxt "#30076"
 msgid "RSP Plugin"
 msgstr ""
 
-msgctxt "#30077"
-msgid "Resolution (restart)"
-msgstr ""
+#~ msgctxt "#30077"
+#~ msgid "Resolution (restart)"
+#~ msgstr ""
 
-msgctxt "#30078"
-msgid "Aspect ratio hint (reinit)"
-msgstr ""
+#~ msgctxt "#30078"
+#~ msgid "Aspect ratio hint (reinit)"
+#~ msgstr ""
 
-msgctxt "#30079"
-msgid "(Glide64) Texture Filtering"
-msgstr ""
+#~ msgctxt "#30079"
+#~ msgid "(Glide64) Texture Filtering"
+#~ msgstr ""
 
-msgctxt "#30080"
-msgid "(Angrylion) Dithering"
-msgstr ""
+#~ msgctxt "#30080"
+#~ msgid "(Angrylion) Dithering"
+#~ msgstr ""
 
-msgctxt "#30081"
-msgid "(Glide64) Polygon Offset Factor"
-msgstr ""
+#~ msgctxt "#30081"
+#~ msgid "(Glide64) Polygon Offset Factor"
+#~ msgstr ""
 
-msgctxt "#30082"
-msgid "(Glide64) Polygon Offset Units"
-msgstr ""
+#~ msgctxt "#30082"
+#~ msgid "(Glide64) Polygon Offset Units"
+#~ msgstr ""
 
-msgctxt "#30083"
-msgid "Buffer Swap"
-msgstr ""
+#~ msgctxt "#30083"
+#~ msgid "Buffer Swap"
+#~ msgstr ""
 
-msgctxt "#30084"
-msgid "Framerate (restart)"
-msgstr ""
+#~ msgctxt "#30084"
+#~ msgid "Framerate (restart)"
+#~ msgstr ""
 
 msgctxt "#30085"
 msgid "Independent C-button Controls"
 msgstr ""
 
-msgctxt "#30086"
-msgid "(Glide64) Vertex cache VBO (restart)"
-msgstr ""
+#~ msgctxt "#30086"
+#~ msgid "(Glide64) Vertex cache VBO (restart)"
+#~ msgstr ""
 
 msgctxt "#30087"
 msgid "Boot Device"
@@ -154,10 +150,1622 @@ msgctxt "#30089"
 msgid "Snap Controller Angle"
 msgstr ""
 
-msgctxt "#30090"
-msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
+#~ msgctxt "#30090"
+#~ msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
+#~ msgstr ""
+
+#~ msgctxt "#30091"
+#~ msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
+#~ msgstr ""
+
+msgctxt "#30092"
+msgid "System"
 msgstr ""
 
-msgctxt "#30091"
-msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
+msgctxt "#30093"
+msgid "Configure system options."
+msgstr ""
+
+msgctxt "#30094"
+msgid "RDP Plugin"
+msgstr ""
+
+msgctxt "#30095"
+msgid "Reality Display Processor plugin."
+msgstr ""
+
+msgctxt "#30096"
+msgid "Angrylion"
+msgstr ""
+
+msgctxt "#30097"
+msgid "GLideN64"
+msgstr ""
+
+msgctxt "#30098"
+msgid "Glide64"
+msgstr ""
+
+msgctxt "#30099"
+msgid "glN64"
+msgstr ""
+
+msgctxt "#30100"
+msgid "Rice"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Reality Signal Processor plugin."
+msgstr ""
+
+msgctxt "#30102"
+msgid "Auto"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Cxd4"
+msgstr ""
+
+msgctxt "#30104"
+msgid "HLE"
+msgstr ""
+
+msgctxt "#30105"
+msgid "CPU emulation mode."
+msgstr ""
+
+msgctxt "#30106"
+msgid "Cached Interpreter"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Pure Interpreter"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Dynamic Recompiler (Hacktarux)"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Dynamic Recompiler (Ari64)"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Give the console 8MB of RAM instead of 4MB, as the Expansion Pak does. Games that require the Pak (Donkey Kong 64, Majora's Mask) will not boot with this disabled. Applied when content starts."
+msgstr ""
+
+msgctxt "#30111"
+msgid "Treat content without a recognised cartridge or disk header as a 64DD disk. Development disks and MAME/SDK dumps carry no header marker; regular cartridges and retail D64 images are identified by their header and unaffected by this setting."
+msgstr ""
+
+msgctxt "#30112"
+msgid "Boot device used for 64DD mode."
+msgstr ""
+
+msgctxt "#30113"
+msgid "64DD IPL"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Flashcart SD Drive"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Emulate a flashcart."
+msgstr ""
+
+msgctxt "#30116"
+msgid "disabled"
+msgstr ""
+
+msgctxt "#30117"
+msgid "SummerCart64"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Video"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Configure video options."
+msgstr ""
+
+msgctxt "#30120"
+msgid "Upscaling Factor"
+msgstr ""
+
+msgctxt "#30121"
+msgid "Render at a multiple of the console's resolution. ParaLLEl-RDP honours every factor; Angrylion renders at up to 4x and treats 8x as 4x."
+msgstr ""
+
+msgctxt "#30122"
+msgid "Use Native Texture LOD When Upscaling"
+msgstr ""
+
+msgctxt "#30123"
+msgid "Pick texture mip levels as the console would, from a console pixel's footprint rather than an upscaled pixel's. Without it an upscaled render selects sharper levels, and games that use the level as a switch show the wrong image (the painting at the end of the castle corridor in Super Mario 64)."
+msgstr ""
+
+msgctxt "#30124"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#30125"
+msgid "Render resolution for gl renderers. Restart required."
+msgstr ""
+
+msgctxt "#30126"
+msgid "Aspect Ratio Hint"
+msgstr ""
+
+msgctxt "#30127"
+msgid "Force display aspect ratio."
+msgstr ""
+
+msgctxt "#30128"
+msgid "Normal"
+msgstr ""
+
+msgctxt "#30129"
+msgid "Widescreen"
+msgstr ""
+
+msgctxt "#30130"
+msgid "Angrylion: VI Overlay"
+msgstr ""
+
+msgctxt "#30131"
+msgid "Accuracy and performance related post-processings."
+msgstr ""
+
+msgctxt "#30132"
+msgid "Angrylion: Deinterlacing"
+msgstr ""
+
+msgctxt "#30133"
+msgid "How interlaced (480i) content is displayed. 'Weave' merges both fields (sharp but combs on motion), 'Bob' line-doubles the current field (no combing, slight shimmer). Affects 480i games like Kuru Kuru Fever or Hanabi de Doon and hi-res title screens."
+msgstr ""
+
+msgctxt "#30134"
+msgid "Weave"
+msgstr ""
+
+msgctxt "#30135"
+msgid "Bob"
+msgstr ""
+
+msgctxt "#30136"
+msgid "Angrylion: Dithering"
+msgstr ""
+
+msgctxt "#30137"
+msgid "Make Mach bands less apparent with 16-bit pixels."
+msgstr ""
+
+msgctxt "#30138"
+msgid "Angrylion: Thread Sync Level"
+msgstr ""
+
+msgctxt "#30139"
+msgid "Sacrifice accuracy for performance."
+msgstr ""
+
+msgctxt "#30140"
+msgid "Angrylion: Multithreading"
+msgstr ""
+
+msgctxt "#30141"
+msgid "'OFF' renders synchronously on the emulator thread: no worker pool, no command buffering, no thread synchronization. Numeric values use the threaded renderer with that many worker threads ('1' keeps the threaded pipeline with a single worker). 'All threads' uses the host's physical cores, at most 8. Every worker replays the whole command stream, so past 8 the duplicated work outweighs what more workers take off the spans, and a second thread on the same core only adds contention."
+msgstr ""
+
+msgctxt "#30142"
+msgid "All threads"
+msgstr ""
+
+msgctxt "#30143"
+msgid "1"
+msgstr ""
+
+msgctxt "#30144"
+msgid "2"
+msgstr ""
+
+msgctxt "#30145"
+msgid "3"
+msgstr ""
+
+msgctxt "#30146"
+msgid "4"
+msgstr ""
+
+msgctxt "#30147"
+msgid "5"
+msgstr ""
+
+msgctxt "#30148"
+msgid "6"
+msgstr ""
+
+msgctxt "#30149"
+msgid "7"
+msgstr ""
+
+msgctxt "#30150"
+msgid "8"
+msgstr ""
+
+msgctxt "#30151"
+msgid "Angrylion: Crop Overscan"
+msgstr ""
+
+msgctxt "#30152"
+msgid "Crop overscan border pixels."
+msgstr ""
+
+msgctxt "#30153"
+msgid "Glide64: GFX Accuracy"
+msgstr ""
+
+msgctxt "#30154"
+msgid "Low"
+msgstr ""
+
+msgctxt "#30155"
+msgid "Medium"
+msgstr ""
+
+msgctxt "#30156"
+msgid "High"
+msgstr ""
+
+msgctxt "#30157"
+msgid "Very High"
+msgstr ""
+
+msgctxt "#30158"
+msgid "Glide64: Texture Filtering"
+msgstr ""
+
+msgctxt "#30159"
+msgid "Bilinear"
+msgstr ""
+
+msgctxt "#30160"
+msgid "Nearest"
+msgstr ""
+
+msgctxt "#30161"
+msgid "N64 3-point"
+msgstr ""
+
+msgctxt "#30162"
+msgid "Glide64: Polygon Offset Factor"
+msgstr ""
+
+msgctxt "#30163"
+msgid "Glide64: Polygon Offset Units"
+msgstr ""
+
+msgctxt "#30164"
+msgid "GLideN64: Widescreen Hack"
+msgstr ""
+
+msgctxt "#30165"
+msgid "Hack that adjusts the viewport to allow unstretched 16:9"
+msgstr ""
+
+msgctxt "#30166"
+msgid "Steam Deck (16:10)"
+msgstr ""
+
+msgctxt "#30167"
+msgid "GLideN64: Native Resolution Factor"
+msgstr ""
+
+msgctxt "#30168"
+msgid "Render at N times the native resolution."
+msgstr ""
+
+msgctxt "#30169"
+msgid "1x"
+msgstr ""
+
+msgctxt "#30170"
+msgid "2x"
+msgstr ""
+
+msgctxt "#30171"
+msgid "3x"
+msgstr ""
+
+msgctxt "#30172"
+msgid "4x"
+msgstr ""
+
+msgctxt "#30173"
+msgid "5x"
+msgstr ""
+
+msgctxt "#30174"
+msgid "6x"
+msgstr ""
+
+msgctxt "#30175"
+msgid "7x"
+msgstr ""
+
+msgctxt "#30176"
+msgid "8x"
+msgstr ""
+
+msgctxt "#30177"
+msgid "GLideN64: Bilinear Filtering Mode"
+msgstr ""
+
+msgctxt "#30178"
+msgid "Select a Bilinear filtering method, 3point is the original system specific way."
+msgstr ""
+
+msgctxt "#30179"
+msgid "Standard"
+msgstr ""
+
+msgctxt "#30180"
+msgid "3-point"
+msgstr ""
+
+msgctxt "#30181"
+msgid "GLideN64: MSAA Level"
+msgstr ""
+
+msgctxt "#30182"
+msgid "Anti-Aliasing level."
+msgstr ""
+
+msgctxt "#30183"
+msgid "16x"
+msgstr ""
+
+msgctxt "#30184"
+msgid "GLideN64: FXAA"
+msgstr ""
+
+msgctxt "#30185"
+msgid "Fast Approximate Anti-Aliasing shader, moderately blur textures."
+msgstr ""
+
+msgctxt "#30186"
+msgid "enabled"
+msgstr ""
+
+msgctxt "#30187"
+msgid "GLideN64: LOD Emulation"
+msgstr ""
+
+msgctxt "#30188"
+msgid "Calculate per-pixel level of details to select texture mip levels and blend them with each other using LOD fraction."
+msgstr ""
+
+msgctxt "#30189"
+msgid "GLideN64: Framebuffer Emulation"
+msgstr ""
+
+msgctxt "#30190"
+msgid "Frame/depth buffer emulation. Disabling it can shorten input lag for particular games, but also break some special effects."
+msgstr ""
+
+msgctxt "#30191"
+msgid "GLideN64: Copy Auxiliary Buffers to RDRAM"
+msgstr ""
+
+msgctxt "#30192"
+msgid "Copy auxiliary buffers to RDRAM. Fixes some game artifacts like Paper Mario intro."
+msgstr ""
+
+msgctxt "#30193"
+msgid "GLideN64: Color Buffer to RDRAM"
+msgstr ""
+
+msgctxt "#30194"
+msgid "Color buffer copy to RDRAM. 'OFF' trades compatibility for performance."
+msgstr ""
+
+msgctxt "#30195"
+msgid "DoubleBuffer"
+msgstr ""
+
+msgctxt "#30196"
+msgid "TripleBuffer"
+msgstr ""
+
+msgctxt "#30197"
+msgid "Sync"
+msgstr ""
+
+msgctxt "#30198"
+msgid "GLideN64: Color Buffer From RDRAM"
+msgstr ""
+
+msgctxt "#30199"
+msgid "Always copy the color buffer from RDRAM. GLideN64 already does this by itself whenever it detects that the CPU painted the frame the VI is about to show, so this setting only adds a second, unconditional trigger for the titles that detection misses (Donkey Kong 64 anti-aliased shadows, some Indiana Jones effects). Needs Framebuffer Emulation on. Default off for the performance cost."
+msgstr ""
+
+msgctxt "#30200"
+msgid "GLideN64: Depth Buffer to RDRAM"
+msgstr ""
+
+msgctxt "#30201"
+msgid "Depth buffer copy to RDRAM (Off will trade compatibility for Performance)."
+msgstr ""
+
+msgctxt "#30202"
+msgid "Software"
+msgstr ""
+
+msgctxt "#30203"
+msgid "FromMem"
+msgstr ""
+
+msgctxt "#30204"
+msgid "GLideN64: Per-game Settings"
+msgstr ""
+
+msgctxt "#30205"
+msgid "When to apply GLideN64's built-in per-game settings. 'Late' lets them override your choices below, 'Early' lets your choices win, 'OFF' ignores them entirely."
+msgstr ""
+
+msgctxt "#30206"
+msgid "Late"
+msgstr ""
+
+msgctxt "#30207"
+msgid "Early"
+msgstr ""
+
+msgctxt "#30208"
+msgid "GLideN64: Background Mode"
+msgstr ""
+
+msgctxt "#30209"
+msgid "Render backgrounds mode (HLE only). One piece (fast), Stripped (precise)."
+msgstr ""
+
+msgctxt "#30210"
+msgid "GLideN64: Hardware Per-pixel Lighting"
+msgstr ""
+
+msgctxt "#30211"
+msgid "Standard per-vertex lighting when disabled. Slightly different rendering."
+msgstr ""
+
+msgctxt "#30212"
+msgid "GLideN64: Continuous Texrect Coords"
+msgstr ""
+
+msgctxt "#30213"
+msgid "Make texrect coordinates continuous to avoid black lines between them."
+msgstr ""
+
+msgctxt "#30214"
+msgid "Force"
+msgstr ""
+
+msgctxt "#30215"
+msgid "GLideN64: Enable Inaccurate Texture Coordinates"
+msgstr ""
+
+msgctxt "#30216"
+msgid "Enables inaccurate texture coordinate calculations. This can improve performance and texture pack compatibity at the cost of accuracy."
+msgstr ""
+
+msgctxt "#30217"
+msgid "GLideN64: Native Resolution 2D Texrects"
+msgstr ""
+
+msgctxt "#30218"
+msgid "Render 2D texrects in native resolution to fix misalignment between parts of 2D image (example: Mario Kart driver selection portraits)."
+msgstr ""
+
+msgctxt "#30219"
+msgid "Unoptimized"
+msgstr ""
+
+msgctxt "#30220"
+msgid "Optimized"
+msgstr ""
+
+msgctxt "#30221"
+msgid "GLideN64: Less Accurate Blending Mode"
+msgstr ""
+
+msgctxt "#30222"
+msgid "Do not use shaders to emulate N64 blending modes. Works faster on slow GPU. Can cause glitches."
+msgstr ""
+
+msgctxt "#30223"
+msgid "GLideN64: GPU Shader Depth Write"
+msgstr ""
+
+msgctxt "#30224"
+msgid "Enable writing of fragment depth. Some mobile GPUs do not support it, thus it's optional. Leave enabled."
+msgstr ""
+
+msgctxt "#30225"
+msgid "GLideN64: Graphics API (Restart)"
+msgstr ""
+
+msgctxt "#30226"
+msgid "Automatic follows the frontend's video driver."
+msgstr ""
+
+msgctxt "#30227"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30228"
+msgid "OpenGL"
+msgstr ""
+
+msgctxt "#30229"
+msgid "Vulkan"
+msgstr ""
+
+msgctxt "#30230"
+msgid "GLideN64: N64 Depth Compare"
+msgstr ""
+
+msgctxt "#30231"
+msgid "Enable N64 depth compare instead of OpenGL standard one. Experimental, Fast mode will have more glitches."
+msgstr ""
+
+msgctxt "#30232"
+msgid "Fast"
+msgstr ""
+
+msgctxt "#30233"
+msgid "Compatible"
+msgstr ""
+
+msgctxt "#30234"
+msgid "GLideN64: Cache GPU Shaders"
+msgstr ""
+
+msgctxt "#30235"
+msgid "Use persistent storage for compiled shaders."
+msgstr ""
+
+msgctxt "#30236"
+msgid "GLideN64: Cache Textures"
+msgstr ""
+
+msgctxt "#30237"
+msgid "Save texture cache to hard disk."
+msgstr ""
+
+msgctxt "#30238"
+msgid "GLideN64: Overscan"
+msgstr ""
+
+msgctxt "#30239"
+msgid "Crop black borders from the overscan region around the screen."
+msgstr ""
+
+msgctxt "#30240"
+msgid "GLideN64: Overscan Offset (Top)"
+msgstr ""
+
+msgctxt "#30241"
+msgid "Overscan top offset."
+msgstr ""
+
+msgctxt "#30242"
+msgid "GLideN64: Overscan Offset (Left)"
+msgstr ""
+
+msgctxt "#30243"
+msgid "Overscan left offset."
+msgstr ""
+
+msgctxt "#30244"
+msgid "GLideN64: Overscan Offset (Right)"
+msgstr ""
+
+msgctxt "#30245"
+msgid "Overscan right offset."
+msgstr ""
+
+msgctxt "#30246"
+msgid "GLideN64: Overscan Offset (Bottom)"
+msgstr ""
+
+msgctxt "#30247"
+msgid "Overscan bottom offset."
+msgstr ""
+
+msgctxt "#30248"
+msgid "GLideN64: Texture Filter"
+msgstr ""
+
+msgctxt "#30249"
+msgid "Select Texture Filtering mode."
+msgstr ""
+
+msgctxt "#30250"
+msgid "Smooth filtering 1"
+msgstr ""
+
+msgctxt "#30251"
+msgid "Smooth filtering 2"
+msgstr ""
+
+msgctxt "#30252"
+msgid "Smooth filtering 3"
+msgstr ""
+
+msgctxt "#30253"
+msgid "Smooth filtering 4"
+msgstr ""
+
+msgctxt "#30254"
+msgid "Sharp filtering 1"
+msgstr ""
+
+msgctxt "#30255"
+msgid "Sharp filtering 2"
+msgstr ""
+
+msgctxt "#30256"
+msgid "GLideN64: Texture Enhancement"
+msgstr ""
+
+msgctxt "#30257"
+msgid "Various texture filters."
+msgstr ""
+
+msgctxt "#30258"
+msgid "Cached"
+msgstr ""
+
+msgctxt "#30259"
+msgid "X2"
+msgstr ""
+
+msgctxt "#30260"
+msgid "X2SAI"
+msgstr ""
+
+msgctxt "#30261"
+msgid "HQ2X"
+msgstr ""
+
+msgctxt "#30262"
+msgid "HQ2XS"
+msgstr ""
+
+msgctxt "#30263"
+msgid "LQ2X"
+msgstr ""
+
+msgctxt "#30264"
+msgid "LQ2XS"
+msgstr ""
+
+msgctxt "#30265"
+msgid "HQ4X"
+msgstr ""
+
+msgctxt "#30266"
+msgid "2xBRZ"
+msgstr ""
+
+msgctxt "#30267"
+msgid "3xBRZ"
+msgstr ""
+
+msgctxt "#30268"
+msgid "4xBRZ"
+msgstr ""
+
+msgctxt "#30269"
+msgid "5xBRZ"
+msgstr ""
+
+msgctxt "#30270"
+msgid "6xBRZ"
+msgstr ""
+
+msgctxt "#30271"
+msgid "GLideN64: Don't Filter Background Textures"
+msgstr ""
+
+msgctxt "#30272"
+msgid "Ignore filtering for background textures."
+msgstr ""
+
+msgctxt "#30273"
+msgid "GLideN64: Use High-Res Textures"
+msgstr ""
+
+msgctxt "#30274"
+msgid "Enable high-res texture packs if available."
+msgstr ""
+
+msgctxt "#30275"
+msgid "GLideN64: Use High-Res Texture Cache Compression"
+msgstr ""
+
+msgctxt "#30276"
+msgid "Compress created texture caches."
+msgstr ""
+
+msgctxt "#30277"
+msgid "GLideN64: Use High-Res Full Alpha Channel"
+msgstr ""
+
+msgctxt "#30278"
+msgid "This should be enabled unless it's an old RICE texture pack."
+msgstr ""
+
+msgctxt "#30279"
+msgid "GLideN64: Use Alternative Method for High-Res Checksums"
+msgstr ""
+
+msgctxt "#30280"
+msgid "Use an alternative method for High-Res paletted textures CRC calculations."
+msgstr ""
+
+msgctxt "#30281"
+msgid "GLideN64: INI Behaviour"
+msgstr ""
+
+msgctxt "#30282"
+msgid "Specifies INI Settings behaviour. This should really only contain essential options. Changing this can and will break ROM's, if the correct options aren't set manually. Some options may only be set via INI (fbInfoDisabled)."
+msgstr ""
+
+msgctxt "#30283"
+msgid "Disable INI"
+msgstr ""
+
+msgctxt "#30284"
+msgid "Prioritize INI over Core Options"
+msgstr ""
+
+msgctxt "#30285"
+msgid "Prioritize Core Options over INI"
+msgstr ""
+
+msgctxt "#30286"
+msgid "GLideN64: Patch SM64 Hacks Made With SM64 Editor"
+msgstr ""
+
+msgctxt "#30287"
+msgid "Make plugin behave like Jabo in certain case to fix compatibility with legacy SM64 hacks. It adds undocumented behavior that may interfere with real N64 games (unlikely)."
+msgstr ""
+
+msgctxt "#30288"
+msgid "GLideN64: Fix VI Resolution"
+msgstr ""
+
+msgctxt "#30289"
+msgid "Remove the black bars added by VI emulation of the FrameBuffer."
+msgstr ""
+
+msgctxt "#30290"
+msgid "Audio"
+msgstr ""
+
+msgctxt "#30291"
+msgid "Configure audio options."
+msgstr ""
+
+msgctxt "#30292"
+msgid "Audio Processing"
+msgstr ""
+
+msgctxt "#30293"
+msgid "Which RSP runs the audio microcode, independently of the one running graphics. 'Same as RSP Plugin' follows the RSP Plugin setting. 'Fast (HLE)' emulates audio lists at a high level instead of cycle-by-cycle, which is faster but glitches in some games. 'Accurate (LLE)' keeps audio cycle-accurate even when graphics run on the HLE RSP, which is the pairing to use if you want HLE speed for graphics without HLE audio glitches."
+msgstr ""
+
+msgctxt "#30294"
+msgid "Same as RSP Plugin"
+msgstr ""
+
+msgctxt "#30295"
+msgid "Fast (HLE)"
+msgstr ""
+
+msgctxt "#30296"
+msgid "Accurate (LLE)"
+msgstr ""
+
+msgctxt "#30297"
+msgid "Enhanced RSP HLE Audio"
+msgstr ""
+
+msgctxt "#30298"
+msgid "Replace the audio microcode's four-tap voice interpolator with a windowed-sinc resampler. The microcode's kernel cannot band-limit a sample that is played back faster than it was recorded, so its image folds back into the audible range - the grain and grit on high-pitched sounds. This removes most of that and is slightly less muffled besides. Only affects the HLE RSP audio path. Deliberately not bit-accurate to the hardware, so leave it off if you want the exact output the console produced."
+msgstr ""
+
+msgctxt "#30299"
+msgid "Enhanced RSP HLE Audio Quality"
+msgstr ""
+
+msgctxt "#30300"
+msgid "How many taps the enhanced resampler uses. More taps reject more of the folded-back image and cost a little more CPU and memory: 16 taps is already a large improvement over the microcode's four, 32 and 64 taps tighten the filter further. Has no effect unless Enhanced RSP HLE Audio is enabled."
+msgstr ""
+
+msgctxt "#30301"
+msgid "16 taps"
+msgstr ""
+
+msgctxt "#30302"
+msgid "32 taps"
+msgstr ""
+
+msgctxt "#30303"
+msgid "64 taps"
+msgstr ""
+
+msgctxt "#30304"
+msgid "Input"
+msgstr ""
+
+msgctxt "#30305"
+msgid "Configure input & Controller Pak options."
+msgstr ""
+
+msgctxt "#30306"
+msgid "Controller Pak for port 1."
+msgstr ""
+
+msgctxt "#30307"
+msgid "Memory"
+msgstr ""
+
+msgctxt "#30308"
+msgid "Rumble"
+msgstr ""
+
+msgctxt "#30309"
+msgid "Biosensor"
+msgstr ""
+
+msgctxt "#30310"
+msgid "Transfer"
+msgstr ""
+
+msgctxt "#30311"
+msgid "Controller Pak for port 2."
+msgstr ""
+
+msgctxt "#30312"
+msgid "Controller Pak for port 3."
+msgstr ""
+
+msgctxt "#30313"
+msgid "Controller Pak for port 4."
+msgstr ""
+
+msgctxt "#30314"
+msgid "Make C-buttons as separate buttons instead of behind R2 toggle. Restart required."
+msgstr ""
+
+msgctxt "#30315"
+msgid "Analog Deadzone"
+msgstr ""
+
+msgctxt "#30316"
+msgid "How far the analog stick must be pushed for the input to register."
+msgstr ""
+
+msgctxt "#30317"
+msgid "0%"
+msgstr ""
+
+msgctxt "#30318"
+msgid "5%"
+msgstr ""
+
+msgctxt "#30319"
+msgid "10%"
+msgstr ""
+
+msgctxt "#30320"
+msgid "15%"
+msgstr ""
+
+msgctxt "#30321"
+msgid "20%"
+msgstr ""
+
+msgctxt "#30322"
+msgid "25%"
+msgstr ""
+
+msgctxt "#30323"
+msgid "30%"
+msgstr ""
+
+msgctxt "#30324"
+msgid "Analog Sensitivity"
+msgstr ""
+
+msgctxt "#30325"
+msgid "How far the analog stick can be pushed."
+msgstr ""
+
+msgctxt "#30326"
+msgid "50%"
+msgstr ""
+
+msgctxt "#30327"
+msgid "55%"
+msgstr ""
+
+msgctxt "#30328"
+msgid "60%"
+msgstr ""
+
+msgctxt "#30329"
+msgid "65%"
+msgstr ""
+
+msgctxt "#30330"
+msgid "70%"
+msgstr ""
+
+msgctxt "#30331"
+msgid "75%"
+msgstr ""
+
+msgctxt "#30332"
+msgid "80%"
+msgstr ""
+
+msgctxt "#30333"
+msgid "85%"
+msgstr ""
+
+msgctxt "#30334"
+msgid "90%"
+msgstr ""
+
+msgctxt "#30335"
+msgid "95%"
+msgstr ""
+
+msgctxt "#30336"
+msgid "100%"
+msgstr ""
+
+msgctxt "#30337"
+msgid "105%"
+msgstr ""
+
+msgctxt "#30338"
+msgid "110%"
+msgstr ""
+
+msgctxt "#30339"
+msgid "115%"
+msgstr ""
+
+msgctxt "#30340"
+msgid "120%"
+msgstr ""
+
+msgctxt "#30341"
+msgid "125%"
+msgstr ""
+
+msgctxt "#30342"
+msgid "130%"
+msgstr ""
+
+msgctxt "#30343"
+msgid "135%"
+msgstr ""
+
+msgctxt "#30344"
+msgid "140%"
+msgstr ""
+
+msgctxt "#30345"
+msgid "145%"
+msgstr ""
+
+msgctxt "#30346"
+msgid "150%"
+msgstr ""
+
+msgctxt "#30347"
+msgid "200%"
+msgstr ""
+
+msgctxt "#30348"
+msgid "Snap analog stick angle to multiples of 45 degrees, to better support circular design controllers that should behave like classic N64 controllers."
+msgstr ""
+
+msgctxt "#30349"
+msgid "Snap Maximum Angle"
+msgstr ""
+
+msgctxt "#30350"
+msgid "Maximum deviation from a 45-degree multiple at which snapping is applied (e.g. value of 5 means 85 to 95 degrees are snapped to 90)."
+msgstr ""
+
+msgctxt "#30351"
+msgid "Snap Minimum Displacement"
+msgstr ""
+
+msgctxt "#30352"
+msgid "Percentage of stick displacement from the center required before snapping activates (0 means always)."
+msgstr ""
+
+msgctxt "#30353"
+msgid "40%"
+msgstr ""
+
+msgctxt "#30354"
+msgid "Mouse to Analog Stick"
+msgstr ""
+
+msgctxt "#30355"
+msgid "Use mouse input to control the N64 analog stick with player 1. The mouse takes over whenever the real stick is neutral. Useful for FPS games."
+msgstr ""
+
+msgctxt "#30356"
+msgid "Mouse Sensitivity X (percent)"
+msgstr ""
+
+msgctxt "#30357"
+msgid "Horizontal mouse sensitivity. Negative values invert the axis. Set to 0 to disable horizontal movement."
+msgstr ""
+
+msgctxt "#30358"
+msgid "Mouse Sensitivity Y (percent)"
+msgstr ""
+
+msgctxt "#30359"
+msgid "Vertical mouse sensitivity. Negative values invert the axis; the default is negative because positive mouse Y points down. Set to 0 for Doom-like horizontal-only control."
+msgstr ""
+
+msgctxt "#30360"
+msgid "Mouse Small Movement Boost"
+msgstr ""
+
+msgctxt "#30361"
+msgid "Amplifies small mouse movements to make fine aiming practical. Higher = more boost; at 10 the stick follows the square root of the motion."
+msgstr ""
+
+msgctxt "#30362"
+msgid "Off"
+msgstr ""
+
+msgctxt "#30363"
+msgid "9"
+msgstr ""
+
+msgctxt "#30364"
+msgid "10"
+msgstr ""
+
+msgctxt "#30365"
+msgid "Mouse Left Button"
+msgstr ""
+
+msgctxt "#30366"
+msgid "Map mouse left button to an N64 button."
+msgstr ""
+
+msgctxt "#30367"
+msgid "A Button"
+msgstr ""
+
+msgctxt "#30368"
+msgid "B Button"
+msgstr ""
+
+msgctxt "#30369"
+msgid "Z Trigger"
+msgstr ""
+
+msgctxt "#30370"
+msgid "L Trigger"
+msgstr ""
+
+msgctxt "#30371"
+msgid "R Trigger"
+msgstr ""
+
+msgctxt "#30372"
+msgid "Start"
+msgstr ""
+
+msgctxt "#30373"
+msgid "C-Up"
+msgstr ""
+
+msgctxt "#30374"
+msgid "C-Down"
+msgstr ""
+
+msgctxt "#30375"
+msgid "C-Left"
+msgstr ""
+
+msgctxt "#30376"
+msgid "C-Right"
+msgstr ""
+
+msgctxt "#30377"
+msgid "Mouse Right Button"
+msgstr ""
+
+msgctxt "#30378"
+msgid "Map mouse right button to an N64 button."
+msgstr ""
+
+msgctxt "#30379"
+msgid "Mouse Middle Button"
+msgstr ""
+
+msgctxt "#30380"
+msgid "Map mouse middle button to an N64 button."
+msgstr ""
+
+msgctxt "#30381"
+msgid "Mouse Wheel Up"
+msgstr ""
+
+msgctxt "#30382"
+msgid "Map mouse wheel up to an N64 button."
+msgstr ""
+
+msgctxt "#30383"
+msgid "Mouse Wheel Down"
+msgstr ""
+
+msgctxt "#30384"
+msgid "Map mouse wheel down to an N64 button."
+msgstr ""
+
+msgctxt "#30385"
+msgid "VR"
+msgstr ""
+
+msgctxt "#30386"
+msgid "Configure stereoscopic 3D and VR headset options (GLideN64)."
+msgstr ""
+
+msgctxt "#30387"
+msgid "VR Mode"
+msgstr ""
+
+msgctxt "#30388"
+msgid "'Stereoscopic' renders each eye separately for real depth. 'Immersive' needs a VR headset: the game fills the view and turning your head turns the game's camera; scenes that can't fill the view fall back to the screen. Both double the rendering work, turn on frame buffer emulation and need a frontend that supports video views. Resolution and aspect ratio apply per eye. Restart required."
+msgstr ""
+
+msgctxt "#30389"
+msgid "Stereoscopic"
+msgstr ""
+
+msgctxt "#30390"
+msgid "Immersive"
+msgstr ""
+
+msgctxt "#30391"
+msgid "VR Eye Separation"
+msgstr ""
+
+msgctxt "#30392"
+msgid "Strength of the 3D effect: the parallax of distant objects, in thousandths of the screen width. Lower is more comfortable."
+msgstr ""
+
+msgctxt "#30393"
+msgid "VR Depth Boost"
+msgstr ""
+
+msgctxt "#30394"
+msgid "Spreads deep scenes, such as race tracks, that would otherwise look flat near the horizon."
+msgstr ""
+
+msgctxt "#30395"
+msgid "VR Immersive World Size"
+msgstr ""
+
+msgctxt "#30396"
+msgid "Immersive mode only. Shows the scene at a smaller angle, as if the game's camera had a narrower view. Head turns still match. Below 100% the picture no longer fills the view."
+msgstr ""
+
+msgctxt "#30397"
+msgid "35%"
+msgstr ""
+
+msgctxt "#30398"
+msgid "45%"
+msgstr ""
+
+msgctxt "#30399"
+msgid "VR Immersive HUD Size"
+msgstr ""
+
+msgctxt "#30400"
+msgid "Immersive mode only. How wide the HUD and overlays are spread. At 100% they cover as much of the view as the game's own camera, which can push them into the corners."
+msgstr ""
+
+msgctxt "#30401"
+msgid "VR Immersive Camera Distance"
+msgstr ""
+
+msgctxt "#30402"
+msgid "Immersive mode only. Moves the camera back along its own axis, in percent of the nearest depth of the scene."
+msgstr ""
+
+msgctxt "#30403"
+msgid "175%"
+msgstr ""
+
+msgctxt "#30404"
+msgid "225%"
+msgstr ""
+
+msgctxt "#30405"
+msgid "250%"
+msgstr ""
+
+msgctxt "#30406"
+msgid "275%"
+msgstr ""
+
+msgctxt "#30407"
+msgid "300%"
+msgstr ""
+
+msgctxt "#30408"
+msgid "VR Laser Pointer Aim"
+msgstr ""
+
+msgctxt "#30409"
+msgid "Aim with a VR motion controller like a laser pointer. This drives the N64 analog stick. Needs a headset session."
+msgstr ""
+
+msgctxt "#30410"
+msgid "Left Controller"
+msgstr ""
+
+msgctxt "#30411"
+msgid "Right Controller"
+msgstr ""
+
+msgctxt "#30412"
+msgid "VR Laser Pointer Output"
+msgstr ""
+
+msgctxt "#30413"
+msgid "The laser pointer drives the analog stick, or four configurable buttons. Only used while VR Laser Pointer Aim is set to a controller."
+msgstr ""
+
+msgctxt "#30414"
+msgid "Analog Stick (Pad 1)"
+msgstr ""
+
+msgctxt "#30415"
+msgid "Four Buttons (Pad 1)"
+msgstr ""
+
+msgctxt "#30416"
+msgid "Analog Stick (Pad 2)"
+msgstr ""
+
+msgctxt "#30417"
+msgid "Four Buttons (Pad 2)"
+msgstr ""
+
+msgctxt "#30418"
+msgid "VR Laser Pointer Invert Y (Thumbstick mode only)"
+msgstr ""
+
+msgctxt "#30419"
+msgid "Invert the vertical axis of laser pointer aim. Only used while VR Laser Pointer Aim is set to a controller."
+msgstr ""
+
+msgctxt "#30420"
+msgid "VR Laser Pointer Button Threshold (Four Buttons mode only)"
+msgstr ""
+
+msgctxt "#30421"
+msgid "Four Buttons output only. How far from the centre the pointer must be to press a direction, in percent of its range. Releases a little closer to the centre than it presses."
+msgstr ""
+
+msgctxt "#30422"
+msgid "VR Laser Pointer Up Button"
+msgstr ""
+
+msgctxt "#30423"
+msgid "Four Buttons output only. Button pressed while the pointer is above the threshold."
+msgstr ""
+
+msgctxt "#30424"
+msgid "D-Pad Up"
+msgstr ""
+
+msgctxt "#30425"
+msgid "D-Pad Down"
+msgstr ""
+
+msgctxt "#30426"
+msgid "D-Pad Left"
+msgstr ""
+
+msgctxt "#30427"
+msgid "D-Pad Right"
+msgstr ""
+
+msgctxt "#30428"
+msgid "VR Laser Pointer Down Button"
+msgstr ""
+
+msgctxt "#30429"
+msgid "Four Buttons output only. Button pressed while the pointer is below the threshold."
+msgstr ""
+
+msgctxt "#30430"
+msgid "VR Laser Pointer Left Button"
+msgstr ""
+
+msgctxt "#30431"
+msgid "Four Buttons output only. Button pressed while the pointer is left of the threshold."
+msgstr ""
+
+msgctxt "#30432"
+msgid "VR Laser Pointer Right Button"
+msgstr ""
+
+msgctxt "#30433"
+msgid "Four Buttons output only. Button pressed while the pointer is right of the threshold."
+msgstr ""
+
+msgctxt "#30434"
+msgid "Aleck64"
+msgstr ""
+
+msgctxt "#30435"
+msgid "Aleck64 arcade dipswitches (only used by Aleck64 MAME romsets)."
+msgstr ""
+
+msgctxt "#30436"
+msgid "Test Mode"
+msgstr ""
+
+msgctxt "#30437"
+msgid "Boot the arcade board's test menu instead of the game."
+msgstr ""
+
+msgctxt "#30438"
+msgid "Coinage"
+msgstr ""
+
+msgctxt "#30439"
+msgid "Coins needed per credit (Star Soldier, Vivid Dolls, Hi Pai Paradise 1/2)."
+msgstr ""
+
+msgctxt "#30440"
+msgid "Difficulty"
+msgstr ""
+
+msgctxt "#30441"
+msgid "Game difficulty (Star Soldier, Vivid Dolls, Hi Pai Paradise 1/2)."
+msgstr ""
+
+msgctxt "#30442"
+msgid "Demo Sounds"
+msgstr ""
+
+msgctxt "#30443"
+msgid "Play sound in attract mode (Star Soldier, Hi Pai Paradise 1/2)."
+msgstr ""
+
+msgctxt "#30444"
+msgid "Language (Star Soldier)"
+msgstr ""
+
+msgctxt "#30445"
+msgid "In-game language for Star Soldier: Vanishing Earth."
+msgstr ""
+
+msgctxt "#30446"
+msgid "Players (Star Soldier)"
+msgstr ""
+
+msgctxt "#30447"
+msgid "Number of players supported by the cabinet."
+msgstr ""
+
+msgctxt "#30448"
+msgid "Joystick Type (Star Soldier)"
+msgstr ""
+
+msgctxt "#30449"
+msgid "Cabinet joystick type."
+msgstr ""
+
+msgctxt "#30450"
+msgid "Auto Level (Star Soldier)"
+msgstr ""
+
+msgctxt "#30451"
+msgid "Auto level speed."
+msgstr ""
+
+msgctxt "#30452"
+msgid "Rapid Fire (Star Soldier)"
+msgstr ""
+
+msgctxt "#30453"
+msgid "Enable rapid fire."
+msgstr ""
+
+msgctxt "#30454"
+msgid "Extend (Star Soldier)"
+msgstr ""
+
+msgctxt "#30455"
+msgid "Score for an extra life."
+msgstr ""
+
+msgctxt "#30456"
+msgid "30,000,000"
+msgstr ""
+
+msgctxt "#30457"
+msgid "50,000,000"
+msgstr ""
+
+msgctxt "#30458"
+msgid "70,000,000"
+msgstr ""
+
+msgctxt "#30459"
+msgid "Lives (Vivid Dolls)"
+msgstr ""
+
+msgctxt "#30460"
+msgid "Number of lives."
+msgstr ""
+
+msgctxt "#30461"
+msgid "Free Play (Hi Pai Paradise)"
+msgstr ""
+
+msgctxt "#30462"
+msgid "Play without credits."
+msgstr ""
+
+msgctxt "#30463"
+msgid "Allow Continue (Hi Pai Paradise)"
+msgstr ""
+
+msgctxt "#30464"
+msgid "Allow continuing after a loss."
+msgstr ""
+
+msgctxt "#30465"
+msgid "Kuitan (Hi Pai Paradise)"
+msgstr ""
+
+msgctxt "#30466"
+msgid "Mahjong kuitan rule."
+msgstr ""
+
+msgctxt "#30467"
+msgid "Emulation Hacks"
+msgstr ""
+
+msgctxt "#30468"
+msgid "Configure emulation hack options."
+msgstr ""
+
+msgctxt "#30469"
+msgid "VI Refresh"
+msgstr ""
+
+msgctxt "#30470"
+msgid "Video Interface clock speed."
+msgstr ""
+
+msgctxt "#30471"
+msgid "1500"
+msgstr ""
+
+msgctxt "#30472"
+msgid "2200"
+msgstr ""
+
+msgctxt "#30473"
+msgid "Allow Large ROMs"
+msgstr ""
+
+msgctxt "#30474"
+msgid "Enable support for ROMs that are larger than 64 MiB."
+msgstr ""
+
+msgctxt "#30475"
+msgid "Save Type For Unknown ROMs"
+msgstr ""
+
+msgctxt "#30476"
+msgid "Force save type when not sure."
+msgstr ""
+
+msgctxt "#30477"
+msgid "Do not force"
+msgstr ""
+
+msgctxt "#30478"
+msgid "EEPROM (4kB)"
+msgstr ""
+
+msgctxt "#30479"
+msgid "EEPROM (16kB)"
+msgstr ""
+
+msgctxt "#30480"
+msgid "SRAM"
+msgstr ""
+
+msgctxt "#30481"
+msgid "FlashRAM"
+msgstr ""
+
+msgctxt "#30482"
+msgid "MemPak"
+msgstr ""
+
+msgctxt "#30483"
+msgid "Rollback N64 System Clock on Savestate Load"
+msgstr ""
+
+msgctxt "#30484"
+msgid "Use state saved timestamp for system clock after loading a state."
+msgstr ""
+
+msgctxt "#30485"
+msgid "Unaligned DMA Behaviour"
+msgstr ""
+
+msgctxt "#30486"
+msgid "'Allow Unaligned' causes minor issues on Taz Express; 'Force Alignment' is accurate to N64, but breaks some romhacks."
+msgstr ""
+
+msgctxt "#30487"
+msgid "Force Alignment"
+msgstr ""
+
+msgctxt "#30488"
+msgid "Allow Unaligned"
+msgstr ""
+
+msgctxt "#30489"
+msgid "PI/SI DMA Timing"
+msgstr ""
+
+msgctxt "#30490"
+msgid "'Bus Registers' times cartridge and controller DMAs from the PI domain timing registers and the joybus command list, as the hardware does. 'Fixed' keeps the per-device durations."
+msgstr ""
+
+msgctxt "#30491"
+msgid "Fixed"
+msgstr ""
+
+msgctxt "#30492"
+msgid "Bus Registers"
+msgstr ""
+
+msgctxt "#30493"
+msgid "GoldenEye TLB Mapping Hack (Restart)"
+msgstr ""
+
+msgctxt "#30494"
+msgid "Map GoldenEye's demand-paged 0x7F000000 code segment directly onto the ROM, bypassing the game's own TLB pager (ari64 dynarec only). Historically required for GoldenEye to run at all; on desktop-class hosts the accurate path now measures just as fast. Disable for hardware-faithful TLB behaviour or for modified ROMs that relocate the game segment, which the mapping would corrupt."
 msgstr ""

@@ -33,14 +33,6 @@ msgctxt "#30001"
 msgid "CPU Core"
 msgstr "Ядро ЦП"
 
-msgctxt "#30003"
-msgid "Analog Deadzone (percent)"
-msgstr "Мёртвая зона аналога (проценты)"
-
-msgctxt "#30004"
-msgid "Analog Sensitivity (percent)"
-msgstr "Чувствительность аналога (проценты)"
-
 msgctxt "#30005"
 msgid "Player 1 Pak"
 msgstr "Пак игрока 1"
@@ -57,89 +49,17 @@ msgctxt "#30008"
 msgid "Player 4 Pak"
 msgstr "Пак игрока 4"
 
-msgctxt "#30020"
-msgid "(Angrylion) VI Overlay"
-msgstr "(Angrylion) Наложение VI"
-
-msgctxt "#30021"
-msgid "(Angrylion) Thread sync level"
-msgstr "(Angrylion) Уровень синхронизации потоков"
-
-msgctxt "#30022"
-msgid "(Angrylion) Multi-threading"
-msgstr "(Angrylion) Многопоточность"
-
-msgctxt "#30023"
-msgid "(Angrylion) Hide overscan"
-msgstr "(Angrylion) Скрыть вылет за края"
-
-msgctxt "#30024"
-msgid "VI Refresh (Overclock)"
-msgstr "Обновление VI (разгон)"
-
-msgctxt "#30071"
-msgid "Audio Buffer Size (restart)"
-msgstr "Размер аудиобуфера (перезапуск)"
-
 msgctxt "#30072"
 msgid "Enable Expansion Pak RAM"
 msgstr "Включить ОЗУ Expansion Pak"
-
-msgctxt "#30073"
-msgid "GFX Accuracy (restart)"
-msgstr "Точность графики (перезапуск)"
-
-msgctxt "#30074"
-msgid "Send audio lists to HLE RSP"
-msgstr "Отправлять аудиосписки в HLE RSP"
-
-msgctxt "#30075"
-msgid "GFX Plugin"
-msgstr "Графический плагин"
 
 msgctxt "#30076"
 msgid "RSP Plugin"
 msgstr "Плагин RSP"
 
-msgctxt "#30077"
-msgid "Resolution (restart)"
-msgstr "Разрешение (перезапуск)"
-
-msgctxt "#30078"
-msgid "Aspect ratio hint (reinit)"
-msgstr "Подсказка соотношения сторон (реинициализация)"
-
-msgctxt "#30079"
-msgid "(Glide64) Texture Filtering"
-msgstr "(Glide64) Фильтрация текстур"
-
-msgctxt "#30080"
-msgid "(Angrylion) Dithering"
-msgstr "(Angrylion) Дизеринг"
-
-msgctxt "#30081"
-msgid "(Glide64) Polygon Offset Factor"
-msgstr "(Glide64) Коэффициент смещения полигонов"
-
-msgctxt "#30082"
-msgid "(Glide64) Polygon Offset Units"
-msgstr "(Glide64) Единицы смещения полигонов"
-
-msgctxt "#30083"
-msgid "Buffer Swap"
-msgstr "Замена буфера"
-
-msgctxt "#30084"
-msgid "Framerate (restart)"
-msgstr "Частота кадров (перезапуск)"
-
 msgctxt "#30085"
 msgid "Independent C-button Controls"
 msgstr "Независимое управление кнопками C"
-
-msgctxt "#30086"
-msgid "(Glide64) Vertex cache VBO (restart)"
-msgstr "(Glide64) VBO кэша вершин (перезапуск)"
 
 msgctxt "#30087"
 msgid "Boot Device"
@@ -153,13 +73,93 @@ msgctxt "#30089"
 msgid "Snap Controller Angle"
 msgstr "Угол прилипания контроллера"
 
-msgctxt "#30090"
-msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
-msgstr "Максимальный угол прилипания (значение 5 означает, что углы от 85 до 95 градусов будут притянуты к 90)"
+#~ msgctxt "#30003"
+#~ msgid "Analog Deadzone (percent)"
+#~ msgstr "Мёртвая зона аналога (проценты)"
 
-msgctxt "#30091"
-msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
-msgstr "Какой процент смещения стика от центра вызывает активацию прилипания (ноль означает всегда)"
+#~ msgctxt "#30004"
+#~ msgid "Analog Sensitivity (percent)"
+#~ msgstr "Чувствительность аналога (проценты)"
+
+#~ msgctxt "#30020"
+#~ msgid "(Angrylion) VI Overlay"
+#~ msgstr "(Angrylion) Наложение VI"
+
+#~ msgctxt "#30021"
+#~ msgid "(Angrylion) Thread sync level"
+#~ msgstr "(Angrylion) Уровень синхронизации потоков"
+
+#~ msgctxt "#30022"
+#~ msgid "(Angrylion) Multi-threading"
+#~ msgstr "(Angrylion) Многопоточность"
+
+#~ msgctxt "#30023"
+#~ msgid "(Angrylion) Hide overscan"
+#~ msgstr "(Angrylion) Скрыть вылет за края"
+
+#~ msgctxt "#30024"
+#~ msgid "VI Refresh (Overclock)"
+#~ msgstr "Обновление VI (разгон)"
+
+#~ msgctxt "#30071"
+#~ msgid "Audio Buffer Size (restart)"
+#~ msgstr "Размер аудиобуфера (перезапуск)"
+
+#~ msgctxt "#30073"
+#~ msgid "GFX Accuracy (restart)"
+#~ msgstr "Точность графики (перезапуск)"
+
+#~ msgctxt "#30074"
+#~ msgid "Send audio lists to HLE RSP"
+#~ msgstr "Отправлять аудиосписки в HLE RSP"
+
+#~ msgctxt "#30075"
+#~ msgid "GFX Plugin"
+#~ msgstr "Графический плагин"
+
+#~ msgctxt "#30077"
+#~ msgid "Resolution (restart)"
+#~ msgstr "Разрешение (перезапуск)"
+
+#~ msgctxt "#30078"
+#~ msgid "Aspect ratio hint (reinit)"
+#~ msgstr "Подсказка соотношения сторон (реинициализация)"
+
+#~ msgctxt "#30079"
+#~ msgid "(Glide64) Texture Filtering"
+#~ msgstr "(Glide64) Фильтрация текстур"
+
+#~ msgctxt "#30080"
+#~ msgid "(Angrylion) Dithering"
+#~ msgstr "(Angrylion) Дизеринг"
+
+#~ msgctxt "#30081"
+#~ msgid "(Glide64) Polygon Offset Factor"
+#~ msgstr "(Glide64) Коэффициент смещения полигонов"
+
+#~ msgctxt "#30082"
+#~ msgid "(Glide64) Polygon Offset Units"
+#~ msgstr "(Glide64) Единицы смещения полигонов"
+
+#~ msgctxt "#30083"
+#~ msgid "Buffer Swap"
+#~ msgstr "Замена буфера"
+
+#~ msgctxt "#30084"
+#~ msgid "Framerate (restart)"
+#~ msgstr "Частота кадров (перезапуск)"
+
+#~ msgctxt "#30086"
+#~ msgid "(Glide64) Vertex cache VBO (restart)"
+#~ msgstr "(Glide64) VBO кэша вершин (перезапуск)"
+
+#~ msgctxt "#30090"
+#~ msgid "Maximum Snap Angle (value of 5 would mean 85 to 95 degrees are snapped to 90)"
+#~ msgstr "Максимальный угол прилипания (значение 5 означает, что углы от 85 до 95 градусов будут притянуты к 90)"
+
+#~ msgctxt "#30091"
+#~ msgid "Which percentage of displacement of the stick from the center causes snap to activate (zero means always)"
+#~ msgstr "Какой процент смещения стика от центра вызывает активацию прилипания (ноль означает всегда)"
 
 #~ msgctxt "#30000"
 #~ msgid "Settings"

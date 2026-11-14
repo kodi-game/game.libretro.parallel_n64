@@ -1,38 +1,1921 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<settings>
-	<category label="128">
-		<setting label="30001" type="select" id="parallel-n64-cpucore" values="dynamic_recompiler|cached_interpreter|pure_interpreter" default="dynamic_recompiler"/>
-		<setting label="30071" type="select" id="parallel-n64-audio-buffer-size" values="2048|1024" default="2048"/>
-		<setting label="30003" type="select" id="parallel-n64-astick-deadzone" values="15|20|25|30|0|5|10" default="15"/>
-		<setting label="30004" type="select" id="parallel-n64-astick-sensitivity" values="100|105|110|115|120|125|130|135|140|145|150|200|50|55|60|65|70|75|80|85|90|95" default="100"/>
-		<setting label="30089" type="select" id="parallel-n64-astick-snap-angle-active" values="disabled|enabled" default="disabled"/>
-		<setting label="30090" type="select" id="parallel-n64-astick-snap-max-angle" values="1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21" default="1"/>
-		<setting label="30091" type="select" id="parallel-n64-astick-snap-min-displacement-percent" values="0|10|20|30|40|50|60|65|70|75|80|85|90|95" default="0"/>
-		<setting label="30005" type="select" id="parallel-n64-pak1" values="none|memory|rumble" default="none"/>
-		<setting label="30006" type="select" id="parallel-n64-pak2" values="none|memory|rumble" default="none"/>
-		<setting label="30007" type="select" id="parallel-n64-pak3" values="none|memory|rumble" default="none"/>
-		<setting label="30008" type="select" id="parallel-n64-pak4" values="none|memory|rumble" default="none"/>
-		<setting label="30072" type="select" id="parallel-n64-disable_expmem" values="enabled|disabled" default="enabled"/>
-		<setting label="30073" type="select" id="parallel-n64-gfxplugin-accuracy" values="veryhigh|high|medium|low" default="veryhigh"/>
-		<setting label="30074" type="select" id="parallel-n64-send_allist_to_hle_rsp" values="disabled|enabled" default="disabled"/>
-		<setting label="30075" type="select" id="parallel-n64-gfxplugin" values="auto|glide64|gln64|rice|angrylion" default="auto"/>
-		<setting label="30076" type="select" id="parallel-n64-rspplugin" values="auto|hle|cxd4" default="auto"/>
-		<setting label="30077" type="select" id="parallel-n64-screensize" values="640x480|960x720|1280x960|1440x1080|1600x1200|1920x1440|2240x1680|2880x2160|5760x4320|320x240" default="640x480"/>
-		<setting label="30078" type="select" id="parallel-n64-aspectratiohint" values="normal|widescreen" default="normal"/>
-		<setting label="30079" type="select" id="parallel-n64-filtering" values="automatic|N64 3-point|bilinear|nearest" default="automatic"/>
-		<setting label="30080" type="select" id="parallel-n64-dithering" values="enabled|disabled" default="enabled"/>
-		<setting label="30081" type="select" id="parallel-n64-polyoffset-factor" values="-3.0|-2.5|-2.0|-1.5|-1.0|-0.5|0.0|0.5|1.0|1.5|2.0|2.5|3.0|3.5|4.0|4.5|5.0|-3.5|-4.0|-4.5|-5.0" default="-3.0"/>
-		<setting label="30082" type="select" id="parallel-n64-polyoffset-units" values="-3.0|-2.5|-2.0|-1.5|-1.0|-0.5|0.0|0.5|1.0|1.5|2.0|2.5|3.0|3.5|4.0|4.5|5.0|-3.5|-4.0|-4.5|-5.0" default="-3.0"/>
-		<setting label="30020" type="select" id="parallel-n64-angrylion-vioverlay" values="Filtered|AA+Blur|AA+Dedither|AA only|Unfiltered|Depth|Coverage" default="Filtered"/>
-		<setting label="30021" type="select" id="parallel-n64-angrylion-sync" values="Low|Medium|High" default="Low"/>
-		<setting label="30022" type="select" id="parallel-n64-angrylion-multithread" values="all threads|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48|49|50|51|52|53|54|55|56|57|58|59|60|61|62|63" default="all threads"/>
-		<setting label="30023" type="select" id="parallel-n64-angrylion-overscan" values="disabled|enabled" default="disabled"/>
-		<setting label="30024" type="select" id="parallel-n64-virefresh" values="auto|1500|2200" default="auto"/>
-		<setting label="30083" type="select" id="parallel-n64-bufferswap" values="disabled|enabled" default="disabled"/>
-		<setting label="30084" type="select" id="parallel-n64-framerate" values="original|fullspeed" default="original"/>
-		<setting label="30085" type="select" id="parallel-n64-alt-map" values="disabled|enabled" default="disabled"/>
-		<setting label="30086" type="select" id="parallel-n64-vcache-vbo" values="disabled|enabled" default="disabled"/>
-		<setting label="30087" type="select" id="parallel-n64-boot-device" values="Default|64DD IPL" default="Default"/>
-		<setting label="30088" type="select" id="parallel-n64-64dd-hardware" values="disabled|enabled" default="disabled"/>
-	</category>
+<settings version="1">
+	<section id="game.libretro.parallel_n64">
+		<category id="system" label="30092" help="30093">
+			<group id="1">
+				<setting id="parallel-n64-gfxplugin" type="string" label="30094" help="30095">
+					<level>0</level>
+					<default>gliden64</default>
+					<constraints>
+						<options>
+							<option label="30096">angrylion</option>
+							<option label="30097">gliden64</option>
+							<option label="30098">glide64</option>
+							<option label="30099">gln64</option>
+							<option label="30100">rice</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-rspplugin" type="string" label="30076" help="30101">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30102">auto</option>
+							<option label="30103">cxd4</option>
+							<option label="30104">hle</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-cpucore" type="string" label="30001" help="30105">
+					<level>0</level>
+					<default>dynamic_recompiler_ari64</default>
+					<constraints>
+						<options>
+							<option label="30106">cached_interpreter</option>
+							<option label="30107">pure_interpreter</option>
+							<option label="30108">dynamic_recompiler</option>
+							<option label="30109">dynamic_recompiler_ari64</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-disable_expmem" type="string" label="30072" help="30110">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-64dd-hardware" type="string" label="30088" help="30111">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-boot-device" type="string" label="30087" help="30112">
+					<level>0</level>
+					<default>Default</default>
+					<constraints>
+						<options>
+							<option label="571">Default</option>
+							<option label="30113">64DD IPL</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-sdcard" type="string" label="30114" help="30115">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30116">disabled</option>
+							<option label="30117">SummerCart64</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="video" label="30118" help="30119">
+			<group id="1">
+				<setting id="parallel-n64-upscaling" type="string" label="30120" help="30121">
+					<level>0</level>
+					<default>1x</default>
+					<constraints>
+						<options>
+							<option>1x</option>
+							<option>2x</option>
+							<option>4x</option>
+							<option>8x</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-parallel-rdp-native-texture-lod" type="string" label="30122" help="30123">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-screensize" type="string" label="30124" help="30125">
+					<level>0</level>
+					<default>640x480</default>
+					<constraints>
+						<options>
+							<option>320x240</option>
+							<option>640x480</option>
+							<option>960x720</option>
+							<option>1280x960</option>
+							<option>1440x1080</option>
+							<option>1600x1200</option>
+							<option>1920x1440</option>
+							<option>2240x1680</option>
+							<option>2880x2160</option>
+							<option>5760x4320</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aspectratiohint" type="string" label="30126" help="30127">
+					<level>0</level>
+					<default>normal</default>
+					<constraints>
+						<options>
+							<option label="30128">normal</option>
+							<option label="30129">widescreen</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-angrylion-vioverlay" type="string" label="30130" help="30131">
+					<level>0</level>
+					<default>Filtered</default>
+					<constraints>
+						<options>
+							<option>Filtered</option>
+							<option>AA+Blur</option>
+							<option>AA+Dedither</option>
+							<option>AA only</option>
+							<option>Unfiltered</option>
+							<option>Depth</option>
+							<option>Coverage</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-angrylion-deinterlace" type="string" label="30132" help="30133">
+					<level>0</level>
+					<default>weave</default>
+					<constraints>
+						<options>
+							<option label="30134">weave</option>
+							<option label="30135">bob</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-dithering" type="string" label="30136" help="30137">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-angrylion-sync" type="string" label="30138" help="30139">
+					<level>0</level>
+					<default>Low</default>
+					<constraints>
+						<options>
+							<option>Low</option>
+							<option>Medium</option>
+							<option>High</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-angrylion-multithread" type="string" label="30140" help="30141">
+					<level>0</level>
+					<default>all threads</default>
+					<constraints>
+						<options>
+							<option label="30116">off</option>
+							<option label="30142">all threads</option>
+							<option label="30143">1</option>
+							<option label="30144">2</option>
+							<option label="30145">3</option>
+							<option label="30146">4</option>
+							<option label="30147">5</option>
+							<option label="30148">6</option>
+							<option label="30149">7</option>
+							<option label="30150">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-angrylion-overscan" type="string" label="30151" help="30152">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gfxplugin-accuracy" type="string" label="30153">
+					<level>0</level>
+					<default>veryhigh</default>
+					<constraints>
+						<options>
+							<option label="30154">low</option>
+							<option label="30155">medium</option>
+							<option label="30156">high</option>
+							<option label="30157">veryhigh</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-filtering" type="string" label="30158">
+					<level>0</level>
+					<default>automatic</default>
+					<constraints>
+						<options>
+							<option label="30102">automatic</option>
+							<option label="30161">N64 3-point</option>
+							<option label="30159">bilinear</option>
+							<option label="30160">nearest</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-polyoffset-factor" type="string" label="30162">
+					<level>0</level>
+					<default>-3.0</default>
+					<constraints>
+						<options>
+							<option>-5.0</option>
+							<option>-4.5</option>
+							<option>-4.0</option>
+							<option>-3.5</option>
+							<option>-3.0</option>
+							<option>-2.5</option>
+							<option>-2.0</option>
+							<option>-1.5</option>
+							<option>-1.0</option>
+							<option>-0.5</option>
+							<option>0.0</option>
+							<option>0.5</option>
+							<option>1.0</option>
+							<option>1.5</option>
+							<option>2.0</option>
+							<option>2.5</option>
+							<option>3.0</option>
+							<option>3.5</option>
+							<option>4.0</option>
+							<option>4.5</option>
+							<option>5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-polyoffset-units" type="string" label="30163">
+					<level>0</level>
+					<default>-3.0</default>
+					<constraints>
+						<options>
+							<option>-5.0</option>
+							<option>-4.5</option>
+							<option>-4.0</option>
+							<option>-3.5</option>
+							<option>-3.0</option>
+							<option>-2.5</option>
+							<option>-2.0</option>
+							<option>-1.5</option>
+							<option>-1.0</option>
+							<option>-0.5</option>
+							<option>0.0</option>
+							<option>0.5</option>
+							<option>1.0</option>
+							<option>1.5</option>
+							<option>2.0</option>
+							<option>2.5</option>
+							<option>3.0</option>
+							<option>3.5</option>
+							<option>4.0</option>
+							<option>4.5</option>
+							<option>5.0</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-viewport-hack" type="string" label="30164" help="30165">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+							<option label="30166">steamdeck</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableNativeResFactor" type="string" label="30167" help="30168">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30116">0</option>
+							<option label="30169">1</option>
+							<option label="30170">2</option>
+							<option label="30171">3</option>
+							<option label="30172">4</option>
+							<option label="30173">5</option>
+							<option label="30174">6</option>
+							<option label="30175">7</option>
+							<option label="30176">8</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-BilinearMode" type="string" label="30177" help="30178">
+					<level>0</level>
+					<default>standard</default>
+					<constraints>
+						<options>
+							<option label="30179">standard</option>
+							<option label="30180">3point</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-MultiSampling" type="string" label="30181" help="30182">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30116">0</option>
+							<option label="30170">2</option>
+							<option label="30172">4</option>
+							<option label="30176">8</option>
+							<option label="30183">16</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-FXAA" type="string" label="30184" help="30185">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30116">0</option>
+							<option label="30186">1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableLODEmulation" type="string" label="30187" help="30188">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableFBEmulation" type="string" label="30189" help="30190">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableCopyAuxToRDRAM" type="string" label="30191" help="30192">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableCopyColorToRDRAM" type="string" label="30193" help="30194">
+					<level>0</level>
+					<default>Async</default>
+					<constraints>
+						<options>
+							<option label="30116">Off</option>
+							<option label="30197">Sync</option>
+							<option label="30195">Async</option>
+							<option label="30196">TripleBuffer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableCopyColorFromRDRAM" type="string" label="30198" help="30199">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableCopyDepthToRDRAM" type="string" label="30200" help="30201">
+					<level>0</level>
+					<default>Software</default>
+					<constraints>
+						<options>
+							<option label="30116">Off</option>
+							<option label="30202">Software</option>
+							<option label="30203">FromMem</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-GLideN64IniBehaviour" type="string" label="30204" help="30205">
+					<level>0</level>
+					<default>late</default>
+					<constraints>
+						<options>
+							<option label="30116">disabled</option>
+							<option label="30206">late</option>
+							<option label="30207">early</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-BackgroundMode" type="string" label="30208" help="30209">
+					<level>0</level>
+					<default>OnePiece</default>
+					<constraints>
+						<options>
+							<option>Stripped</option>
+							<option>OnePiece</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableHWLighting" type="string" label="30210" help="30211">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-CorrectTexrectCoords" type="string" label="30212" help="30213">
+					<level>0</level>
+					<default>Off</default>
+					<constraints>
+						<options>
+							<option label="30116">Off</option>
+							<option label="16316">Auto</option>
+							<option label="30214">Force</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableInaccurateTextureCoordinates" type="string" label="30215" help="30216">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableNativeResTexrects" type="string" label="30217" help="30218">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="30116">Disabled</option>
+							<option label="30219">Unoptimized</option>
+							<option label="30220">Optimized</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableLegacyBlending" type="string" label="30221" help="30222">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableFragmentDepthWrite" type="string" label="30223" help="30224">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-API" type="string" label="30225" help="30226">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30227">auto</option>
+							<option label="30228">opengl</option>
+							<option label="30229">vulkan</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableN64DepthCompare" type="string" label="30230" help="30231">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30232">True</option>
+							<option label="30233">Compatible</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableShadersStorage" type="string" label="30234" help="30235">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableTextureCache" type="string" label="30236" help="30237">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableOverscan" type="string" label="30238" help="30239">
+					<level>0</level>
+					<default>Disabled</default>
+					<constraints>
+						<options>
+							<option label="30116">Disabled</option>
+							<option label="30186">Enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-OverscanTop" type="string" label="30240" help="30241">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-OverscanLeft" type="string" label="30242" help="30243">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-OverscanRight" type="string" label="30244" help="30245">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-OverscanBottom" type="string" label="30246" help="30247">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option>0</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+							<option>22</option>
+							<option>23</option>
+							<option>24</option>
+							<option>25</option>
+							<option>26</option>
+							<option>27</option>
+							<option>28</option>
+							<option>29</option>
+							<option>30</option>
+							<option>31</option>
+							<option>32</option>
+							<option>33</option>
+							<option>34</option>
+							<option>35</option>
+							<option>36</option>
+							<option>37</option>
+							<option>38</option>
+							<option>39</option>
+							<option>40</option>
+							<option>41</option>
+							<option>42</option>
+							<option>43</option>
+							<option>44</option>
+							<option>45</option>
+							<option>46</option>
+							<option>47</option>
+							<option>48</option>
+							<option>49</option>
+							<option>50</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-txFilterMode" type="string" label="30248" help="30249">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30250">Smooth filtering 1</option>
+							<option label="30251">Smooth filtering 2</option>
+							<option label="30252">Smooth filtering 3</option>
+							<option label="30253">Smooth filtering 4</option>
+							<option label="30254">Sharp filtering 1</option>
+							<option label="30255">Sharp filtering 2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-txEnhancementMode" type="string" label="30256" help="30257">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30258">As Is</option>
+							<option label="30259">X2</option>
+							<option label="30260">X2SAI</option>
+							<option label="30261">HQ2X</option>
+							<option label="30262">HQ2XS</option>
+							<option label="30263">LQ2X</option>
+							<option label="30264">LQ2XS</option>
+							<option label="30265">HQ4X</option>
+							<option label="30266">2xBRZ</option>
+							<option label="30267">3xBRZ</option>
+							<option label="30268">4xBRZ</option>
+							<option label="30269">5xBRZ</option>
+							<option label="30270">6xBRZ</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-txFilterIgnoreBG" type="string" label="30271" help="30272">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-txHiresEnable" type="string" label="30273" help="30274">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-txCacheCompression" type="string" label="30275" help="30276">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-txHiresFullAlphaChannel" type="string" label="30277" help="30278">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-EnableHiResAltCRC" type="string" label="30279" help="30280">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-IniBehaviour" type="string" label="30281" help="30282">
+					<level>0</level>
+					<default>late</default>
+					<constraints>
+						<options>
+							<option label="30283">disabled</option>
+							<option label="30284">late</option>
+							<option label="30285">early</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-LegacySm64ToolsHacks" type="string" label="30286" help="30287">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-gliden64-RemoveFBBlackBars" type="string" label="30288" help="30289">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="audio" label="30290" help="30291">
+			<group id="1">
+				<setting id="parallel-n64-send_allist_to_hle_rsp" type="string" label="30292" help="30293">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="30294">disabled</option>
+							<option label="30295">hle</option>
+							<option label="30296">accurate</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-enhanced-hle-audio" type="string" label="30297" help="30298">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-enhanced-hle-audio-quality" type="string" label="30299" help="30300">
+					<level>0</level>
+					<default>32</default>
+					<constraints>
+						<options>
+							<option label="30301">16</option>
+							<option label="30302">32</option>
+							<option label="30303">64</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="input" label="30304" help="30305">
+			<group id="1">
+				<setting id="parallel-n64-pak1" type="string" label="30005" help="30306">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30116">none</option>
+							<option label="30307">memory</option>
+							<option label="30308">rumble</option>
+							<option label="30309">biosensor</option>
+							<option label="30310">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-pak2" type="string" label="30006" help="30311">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30116">none</option>
+							<option label="30307">memory</option>
+							<option label="30308">rumble</option>
+							<option label="30309">biosensor</option>
+							<option label="30310">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-pak3" type="string" label="30007" help="30312">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30116">none</option>
+							<option label="30307">memory</option>
+							<option label="30308">rumble</option>
+							<option label="30309">biosensor</option>
+							<option label="30310">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-pak4" type="string" label="30008" help="30313">
+					<level>0</level>
+					<default>none</default>
+					<constraints>
+						<options>
+							<option label="30116">none</option>
+							<option label="30307">memory</option>
+							<option label="30308">rumble</option>
+							<option label="30309">biosensor</option>
+							<option label="30310">transfer</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-alt-map" type="string" label="30085" help="30314">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-astick-deadzone" type="string" label="30315" help="30316">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option label="30317">0</option>
+							<option label="30318">5</option>
+							<option label="30319">10</option>
+							<option label="30320">15</option>
+							<option label="30321">20</option>
+							<option label="30322">25</option>
+							<option label="30323">30</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-astick-sensitivity" type="string" label="30324" help="30325">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30326">50</option>
+							<option label="30327">55</option>
+							<option label="30328">60</option>
+							<option label="30329">65</option>
+							<option label="30330">70</option>
+							<option label="30331">75</option>
+							<option label="30332">80</option>
+							<option label="30333">85</option>
+							<option label="30334">90</option>
+							<option label="30335">95</option>
+							<option label="30336">100</option>
+							<option label="30337">105</option>
+							<option label="30338">110</option>
+							<option label="30339">115</option>
+							<option label="30340">120</option>
+							<option label="30341">125</option>
+							<option label="30342">130</option>
+							<option label="30343">135</option>
+							<option label="30344">140</option>
+							<option label="30345">145</option>
+							<option label="30346">150</option>
+							<option label="30347">200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-astick-snap-angle-active" type="string" label="30089" help="30348">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-astick-snap-max-angle" type="string" label="30349" help="30350">
+					<level>0</level>
+					<default>15</default>
+					<constraints>
+						<options>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+							<option>4</option>
+							<option>5</option>
+							<option>6</option>
+							<option>7</option>
+							<option>8</option>
+							<option>9</option>
+							<option>10</option>
+							<option>11</option>
+							<option>12</option>
+							<option>13</option>
+							<option>14</option>
+							<option>15</option>
+							<option>16</option>
+							<option>17</option>
+							<option>18</option>
+							<option>19</option>
+							<option>20</option>
+							<option>21</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-astick-snap-min-displacement-percent" type="string" label="30351" help="30352">
+					<level>0</level>
+					<default>70</default>
+					<constraints>
+						<options>
+							<option label="30317">0</option>
+							<option label="30319">10</option>
+							<option label="30321">20</option>
+							<option label="30323">30</option>
+							<option label="30353">40</option>
+							<option label="30326">50</option>
+							<option label="30328">60</option>
+							<option label="30329">65</option>
+							<option label="30330">70</option>
+							<option label="30331">75</option>
+							<option label="30332">80</option>
+							<option label="30333">85</option>
+							<option label="30334">90</option>
+							<option label="30335">95</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-mode" type="string" label="30354" help="30355">
+					<level>0</level>
+					<default>False</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-sensitivity-x" type="string" label="30356" help="30357">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option>-500</option>
+							<option>-400</option>
+							<option>-300</option>
+							<option>-250</option>
+							<option>-200</option>
+							<option>-175</option>
+							<option>-150</option>
+							<option>-125</option>
+							<option>-100</option>
+							<option>-75</option>
+							<option>-50</option>
+							<option>0</option>
+							<option>50</option>
+							<option>75</option>
+							<option>100</option>
+							<option>125</option>
+							<option>150</option>
+							<option>175</option>
+							<option>200</option>
+							<option>250</option>
+							<option>300</option>
+							<option>400</option>
+							<option>500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-sensitivity-y" type="string" label="30358" help="30359">
+					<level>0</level>
+					<default>-100</default>
+					<constraints>
+						<options>
+							<option>-500</option>
+							<option>-400</option>
+							<option>-300</option>
+							<option>-250</option>
+							<option>-200</option>
+							<option>-175</option>
+							<option>-150</option>
+							<option>-125</option>
+							<option>-100</option>
+							<option>-75</option>
+							<option>-50</option>
+							<option>0</option>
+							<option>50</option>
+							<option>75</option>
+							<option>100</option>
+							<option>125</option>
+							<option>150</option>
+							<option>175</option>
+							<option>200</option>
+							<option>250</option>
+							<option>300</option>
+							<option>400</option>
+							<option>500</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-boost" type="string" label="30360" help="30361">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30362">0</option>
+							<option label="30143">1</option>
+							<option label="30144">2</option>
+							<option label="30145">3</option>
+							<option label="30146">4</option>
+							<option label="30147">5</option>
+							<option label="30148">6</option>
+							<option label="30149">7</option>
+							<option label="30150">8</option>
+							<option label="30363">9</option>
+							<option label="30364">10</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-left" type="string" label="30365" help="30366">
+					<level>0</level>
+					<default>Z</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-right" type="string" label="30377" help="30378">
+					<level>0</level>
+					<default>A</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-middle" type="string" label="30379" help="30380">
+					<level>0</level>
+					<default>None</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-wheel-up" type="string" label="30381" help="30382">
+					<level>0</level>
+					<default>L</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-mouse-wheel-down" type="string" label="30383" help="30384">
+					<level>0</level>
+					<default>R</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="vr" label="30385" help="30386">
+			<group id="1">
+				<setting id="parallel-n64-vr-mode" type="string" label="30387" help="30388">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30116">off</option>
+							<option label="30389">stereoscopic</option>
+							<option label="30390">immersive</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-separation" type="string" label="30391" help="30392">
+					<level>0</level>
+					<default>30</default>
+					<constraints>
+						<options>
+							<option>5</option>
+							<option>10</option>
+							<option>15</option>
+							<option>20</option>
+							<option>25</option>
+							<option>30</option>
+							<option>35</option>
+							<option>40</option>
+							<option>50</option>
+							<option>60</option>
+							<option>80</option>
+							<option>100</option>
+							<option>120</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-depth-boost" type="string" label="30393" help="30394">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30317">0</option>
+							<option label="30319">10</option>
+							<option label="30321">20</option>
+							<option label="30323">30</option>
+							<option label="30353">40</option>
+							<option label="30326">50</option>
+							<option label="30328">60</option>
+							<option label="30330">70</option>
+							<option label="30332">80</option>
+							<option label="30334">90</option>
+							<option label="30336">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-immersive-world-scale" type="string" label="30395" help="30396">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30323">30</option>
+							<option label="30397">35</option>
+							<option label="30353">40</option>
+							<option label="30398">45</option>
+							<option label="30326">50</option>
+							<option label="30327">55</option>
+							<option label="30328">60</option>
+							<option label="30329">65</option>
+							<option label="30330">70</option>
+							<option label="30331">75</option>
+							<option label="30332">80</option>
+							<option label="30333">85</option>
+							<option label="30334">90</option>
+							<option label="30335">95</option>
+							<option label="30336">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-immersive-hud-scale" type="string" label="30399" help="30400">
+					<level>0</level>
+					<default>100</default>
+					<constraints>
+						<options>
+							<option label="30323">30</option>
+							<option label="30397">35</option>
+							<option label="30353">40</option>
+							<option label="30398">45</option>
+							<option label="30326">50</option>
+							<option label="30327">55</option>
+							<option label="30328">60</option>
+							<option label="30329">65</option>
+							<option label="30330">70</option>
+							<option label="30331">75</option>
+							<option label="30332">80</option>
+							<option label="30333">85</option>
+							<option label="30334">90</option>
+							<option label="30335">95</option>
+							<option label="30336">100</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-immersive-distance" type="string" label="30401" help="30402">
+					<level>0</level>
+					<default>0</default>
+					<constraints>
+						<options>
+							<option label="30317">0</option>
+							<option label="30322">25</option>
+							<option label="30326">50</option>
+							<option label="30331">75</option>
+							<option label="30336">100</option>
+							<option label="30341">125</option>
+							<option label="30346">150</option>
+							<option label="30403">175</option>
+							<option label="30347">200</option>
+							<option label="30404">225</option>
+							<option label="30405">250</option>
+							<option label="30406">275</option>
+							<option label="30407">300</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-controller" type="string" label="30408" help="30409">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30116">off</option>
+							<option label="30410">left</option>
+							<option label="30411">right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-output" type="string" label="30412" help="30413">
+					<level>0</level>
+					<default>stick</default>
+					<constraints>
+						<options>
+							<option label="30414">stick</option>
+							<option label="30415">buttons</option>
+							<option label="30416">stick-p2</option>
+							<option label="30417">buttons-p2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-invert-y" type="string" label="30418" help="30419">
+					<level>0</level>
+					<default>off</default>
+					<constraints>
+						<options>
+							<option label="30116">off</option>
+							<option label="30186">on</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-button-threshold" type="string" label="30420" help="30421">
+					<level>0</level>
+					<default>50</default>
+					<constraints>
+						<options>
+							<option label="30321">20</option>
+							<option label="30323">30</option>
+							<option label="30353">40</option>
+							<option label="30326">50</option>
+							<option label="30328">60</option>
+							<option label="30330">70</option>
+							<option label="30332">80</option>
+							<option label="30334">90</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-button-up" type="string" label="30422" help="30423">
+					<level>0</level>
+					<default>C-Up</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+							<option label="30424">D-Pad Up</option>
+							<option label="30425">D-Pad Down</option>
+							<option label="30426">D-Pad Left</option>
+							<option label="30427">D-Pad Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-button-down" type="string" label="30428" help="30429">
+					<level>0</level>
+					<default>C-Down</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+							<option label="30424">D-Pad Up</option>
+							<option label="30425">D-Pad Down</option>
+							<option label="30426">D-Pad Left</option>
+							<option label="30427">D-Pad Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-button-left" type="string" label="30430" help="30431">
+					<level>0</level>
+					<default>C-Left</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+							<option label="30424">D-Pad Up</option>
+							<option label="30425">D-Pad Down</option>
+							<option label="30426">D-Pad Left</option>
+							<option label="30427">D-Pad Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-vr-aim-button-right" type="string" label="30432" help="30433">
+					<level>0</level>
+					<default>C-Right</default>
+					<constraints>
+						<options>
+							<option label="30116">None</option>
+							<option label="30367">A</option>
+							<option label="30368">B</option>
+							<option label="30369">Z</option>
+							<option label="30370">L</option>
+							<option label="30371">R</option>
+							<option label="30372">Start</option>
+							<option label="30373">C-Up</option>
+							<option label="30374">C-Down</option>
+							<option label="30375">C-Left</option>
+							<option label="30376">C-Right</option>
+							<option label="30424">D-Pad Up</option>
+							<option label="30425">D-Pad Down</option>
+							<option label="30426">D-Pad Left</option>
+							<option label="30427">D-Pad Right</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="aleck64" label="30434" help="30435">
+			<group id="1">
+				<setting id="parallel-n64-aleck64-testmode" type="string" label="30436" help="30437">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-coinage" type="string" label="30438" help="30439">
+					<level>0</level>
+					<default>1 Coin 1 Credit</default>
+					<constraints>
+						<options>
+							<option>1 Coin 1 Credit</option>
+							<option>1 Coin 2 Credits</option>
+							<option>1 Coin 3 Credits</option>
+							<option>1 Coin 4 Credits</option>
+							<option>2 Coins 1 Credit</option>
+							<option>3 Coins 1 Credit</option>
+							<option>4 Coins 1 Credit</option>
+							<option>5 Coins 1 Credit</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-difficulty" type="string" label="30440" help="30441">
+					<level>0</level>
+					<default>Normal</default>
+					<constraints>
+						<options>
+							<option>Normal</option>
+							<option>Easy</option>
+							<option>Hard</option>
+							<option>Hardest</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-demosound" type="string" label="30442" help="30443">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="305">enabled</option>
+							<option label="13106">disabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-language" type="string" label="30444" help="30445">
+					<level>0</level>
+					<default>English</default>
+					<constraints>
+						<options>
+							<option>English</option>
+							<option>Japanese</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-players" type="string" label="30446" help="30447">
+					<level>0</level>
+					<default>3</default>
+					<constraints>
+						<options>
+							<option>3</option>
+							<option>4</option>
+							<option>2</option>
+							<option>1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-joystick" type="string" label="30448" help="30449">
+					<level>0</level>
+					<default>2D</default>
+					<constraints>
+						<options>
+							<option>2D</option>
+							<option>3D</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-autolevel" type="string" label="30450" help="30451">
+					<level>0</level>
+					<default>Normal</default>
+					<constraints>
+						<options>
+							<option>Normal</option>
+							<option>Slow</option>
+							<option>Fast1</option>
+							<option>Fast2</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-rapid" type="string" label="30452" help="30453">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-extend" type="string" label="30454" help="30455">
+					<level>0</level>
+					<default>30,000,000</default>
+					<constraints>
+						<options>
+							<option label="30456">30,000,000</option>
+							<option label="30457">50,000,000</option>
+							<option label="30458">70,000,000</option>
+							<option label="231">None</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-lives" type="string" label="30459" help="30460">
+					<level>0</level>
+					<default>4</default>
+					<constraints>
+						<options>
+							<option>4</option>
+							<option>3</option>
+							<option>2</option>
+							<option>1</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-freeplay" type="string" label="30461" help="30462">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-continue" type="string" label="30463" help="30464">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-aleck64-kuitan" type="string" label="30465" help="30466">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+		<category id="hacks" label="30467" help="30468">
+			<group id="1">
+				<setting id="parallel-n64-virefresh" type="string" label="30469" help="30470">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30102">auto</option>
+							<option label="30471">1500</option>
+							<option label="30472">2200</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-allow-large-roms" type="string" label="30473" help="30474">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30116">False</option>
+							<option label="30186">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-OverrideSaveType" type="string" label="30475" help="30476">
+					<level>0</level>
+					<default>NONE</default>
+					<constraints>
+						<options>
+							<option label="30102">NONE</option>
+							<option label="30477">IGNORE</option>
+							<option label="30478">EEPROM_4KB</option>
+							<option label="30479">EEPROM_16KB</option>
+							<option label="30480">SRAM</option>
+							<option label="30481">FLASH_RAM</option>
+							<option label="30482">CONTROLLER_PACK</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-rtc-savestate" type="string" label="30483" help="30484">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-allow-unaligned-dma" type="string" label="30485" help="30486">
+					<level>0</level>
+					<default>True</default>
+					<constraints>
+						<options>
+							<option label="30487">False</option>
+							<option label="30488">True</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-dma-timing" type="string" label="30489" help="30490">
+					<level>0</level>
+					<default>fixed</default>
+					<constraints>
+						<options>
+							<option label="30491">fixed</option>
+							<option label="30492">registers</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-goldeneye-tlb-hack" type="string" label="30493" help="30494">
+					<level>0</level>
+					<default>enabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+			</group>
+		</category>
+	</section>
 </settings>

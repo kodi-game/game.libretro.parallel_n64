@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.5...4.0)
 project(parallel_n64)
 
 list(APPEND CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR})
@@ -27,7 +27,7 @@ set(LIBRETRO_SONAME parallel_n64_libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 set(LIBRETRO_JNISONAME libretro${CMAKE_SHARED_LIBRARY_SUFFIX})
 
 if(CMAKE_BUILD_TYPE MATCHES Debug)
-  set(LIBRETRO_DEBUG DEBUG=1)
+  set(LIBRETRO_DEBUG DEBUG=1 BUILD=DEBUG)
 
   # Disable LTO for Debug so DWARF survives and LLDB can step into the core
   list(APPEND LIBRETRO_DEBUG LTO=)
@@ -65,8 +65,27 @@ elseif(CORE_SYSTEM_NAME STREQUAL linux)
                     platform=unix
                     )
 elseif(CORE_SYSTEM_NAME STREQUAL osx)
+  set(LIBRETRO_CROSS_COMPILE CROSS_COMPILE=1)
+  string(TOLOWER "${CMAKE_HOST_SYSTEM_PROCESSOR}" LIBRETRO_HOST_CPU)
+  if(LIBRETRO_HOST_CPU STREQUAL "aarch64")
+    set(LIBRETRO_HOST_CPU arm64)
+  elseif(LIBRETRO_HOST_CPU STREQUAL "amd64")
+    set(LIBRETRO_HOST_CPU x86_64)
+  endif()
+
+  # Kodi's toolchain may set CMAKE_CROSSCOMPILING even for native builds.
+  # Omit CROSS_COMPILE entirely when the macOS host and target CPUs match.
+  if(CMAKE_HOST_SYSTEM_NAME STREQUAL "Darwin" AND
+     "${CPU}" STREQUAL "${LIBRETRO_HOST_CPU}")
+    set(LIBRETRO_CROSS_COMPILE)
+  endif()
+
+  set(PLATFORM_CMAKE_OPTIONS)
   if(CPU STREQUAL arm64)
     set(ARCH arm)
+  elseif(CPU STREQUAL x86_64)
+    set(ARCH intel)
+    set(PLATFORM_CMAKE_OPTIONS )
   else()
     set(ARCH intel)
   endif()
@@ -75,12 +94,18 @@ elseif(CORE_SYSTEM_NAME STREQUAL osx)
                     -f Makefile
                     ${build_job_count}
                     ${LIBRETRO_DEBUG}
+                    CC=${CMAKE_C_COMPILER}
+                    CXX=${CMAKE_CXX_COMPILER}
                     arch=${ARCH}
-                    CROSS_COMPILE=1
+                    ARCH=${CPU}
+                    ${LIBRETRO_CROSS_COMPILE}
                     GIT_VERSION=
+                    SDKROOT=${CMAKE_OSX_SYSROOT}
+                    MACOSX_DEPLOYMENT_TARGET=${CMAKE_OSX_DEPLOYMENT_TARGET}
                     LIBRETRO_APPLE_ISYSROOT=${CMAKE_OSX_SYSROOT}
-                    LIBRETRO_APPLE_PLATFORM=${CPU}-apple-macos
+                    LIBRETRO_APPLE_PLATFORM=${CPU}-apple-macos${CMAKE_OSX_DEPLOYMENT_TARGET}
                     platform=osx
+                    ${PLATFORM_CMAKE_OPTIONS}
                     )
 elseif(CORE_SYSTEM_NAME STREQUAL ios OR CORE_SYSTEM_NAME STREQUAL darwin_embedded)
   if(CORE_PLATFORM_NAME STREQUAL ios)
@@ -140,6 +165,23 @@ elseif(CORE_SYSTEM_NAME STREQUAL freebsd)
                     ${LIBRETRO_DEBUG}
                     GIT_VERSION=
                     platform=unix
+                    )
+elseif(CORE_SYSTEM_NAME STREQUAL wasm)
+  # Kodi loads cores with dlopen(), so the emscripten platform has to link a
+  # side module, with the core's own libretro-common (STATIC_LINKING=0).
+  set(BUILD_COMMAND $(MAKE)
+                    -C .
+                    -f Makefile
+                    ${build_job_count}
+                    ${LIBRETRO_DEBUG}
+                    "CC=${CMAKE_C_COMPILER} -pthread -fPIC"
+                    "CXX=${CMAKE_CXX_COMPILER} -pthread -fPIC"
+                    AR=${CMAKE_AR}
+                    "LDFLAGS=-pthread -sSIDE_MODULE=1"
+                    GIT_VERSION=
+                    platform=emscripten
+                    STATIC_LINKING=0
+                    TARGET=${LIBRETRO_SONAME}
                     )
 else()
   message(FATAL_ERROR "${PROJECT_NAME} - Unknown system: ${CORE_SYSTEM_NAME}")
