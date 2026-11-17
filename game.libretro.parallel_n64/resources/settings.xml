@@ -548,6 +548,29 @@
 					</constraints>
 					<control type="list" format="string" />
 				</setting>
+				<setting id="parallel-n64-glide64-API" type="string" label="30495" help="30496">
+					<level>0</level>
+					<default>auto</default>
+					<constraints>
+						<options>
+							<option label="30228">opengl</option>
+							<option label="30229">vulkan</option>
+							<option label="30227">auto</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
+				<setting id="parallel-n64-glide64-shared-shader" type="string" label="30497" help="30498">
+					<level>0</level>
+					<default>disabled</default>
+					<constraints>
+						<options>
+							<option label="13106">disabled</option>
+							<option label="305">enabled</option>
+						</options>
+					</constraints>
+					<control type="list" format="string" />
+				</setting>
 				<setting id="parallel-n64-gliden64-EnableN64DepthCompare" type="string" label="30230" help="30231">
 					<level>0</level>
 					<default>False</default>

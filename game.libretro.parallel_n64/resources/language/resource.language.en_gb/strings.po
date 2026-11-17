@@ -1769,3 +1769,19 @@ msgstr ""
 msgctxt "#30494"
 msgid "Map GoldenEye's demand-paged 0x7F000000 code segment directly onto the ROM, bypassing the game's own TLB pager (ari64 dynarec only). Historically required for GoldenEye to run at all; on desktop-class hosts the accurate path now measures just as fast. Disable for hardware-faithful TLB behaviour or for modified ROMs that relocate the game segment, which the mapping would corrupt."
 msgstr ""
+
+msgctxt "#30495"
+msgid "Glide64: Graphics API (Restart)"
+msgstr ""
+
+msgctxt "#30496"
+msgid "Vulkan draws Glide64 through GLideN64's Vulkan renderer. Automatic follows the frontend's video driver."
+msgstr ""
+
+msgctxt "#30497"
+msgid "Glide64: OpenGL Shared Shader (Restart)"
+msgstr ""
+
+msgctxt "#30498"
+msgid "On OpenGL, one shader for every colour combiner is built when the game loads and draws each new combiner until its own shader is ready: compiled in the background where the driver can, else at the next load. Avoids stutter when a game first uses a combiner. Disabled compiles each combiner's own shader when it is first met, as before."
+msgstr ""
