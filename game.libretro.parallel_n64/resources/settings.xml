@@ -1096,7 +1096,7 @@
 				</setting>
 				<setting id="parallel-n64-astick-deadzone" type="string" label="30315" help="30316">
 					<level>0</level>
-					<default>15</default>
+					<default>0</default>
 					<constraints>
 						<options>
 							<option label="30317">0</option>
